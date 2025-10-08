@@ -1,0 +1,34 @@
+{
+    "neighborhoods": [
+        {
+            "neighborhood1": {
+                "restaurants": [
+                    {
+                        "restaurant1": {
+                            "queried_by_places": false,
+                            "tags": [],
+                            "rating": "",
+                            "websiteUri": "",
+                            "priceLevel": "",
+                            "displayName": "",
+                            "weekdayDescriptions": []
+                        }
+                    }
+                ],
+                "attractions": [
+                    {
+                        "attraction1": {
+                            "queried_by_places": false,
+                            "tags": [],
+                            "rating": "",
+                            "websiteUri": "",
+                            "priceLevel": "",
+                            "displayName": "",
+                            "weekdayDescriptions": []
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

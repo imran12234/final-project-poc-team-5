@@ -1,0 +1,37 @@
+{% extends "planner/base.html" %}
+{% load static %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<!-- skyline hero --------------------------------------------------------->
+<section
+  class="dashboard-hero d-flex flex-column justify-content-center align-items-center text-center">
+
+  <h1 class="display-5 fw-bold text-white">
+    Welcome, {{ user.get_username|default:"Guest" }}!
+  </h1>
+</section>
+
+<!-- action card ---------------------------------------------------------->
+<div class="dashboard-actions-wrapper">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-11 col-sm-9 col-md-6 col-lg-4">
+        <div class="dashboard-actions-card text-center p-4 shadow rounded-4 bg-white">
+          <div class="d-grid gap-3">
+            <a href="{% url 'planner:survey' %}" class="btn btn-primary btn-lg">
+              Create New Itinerary
+            </a>
+            {% if user.is_authenticated %}
+              <a href="{% url 'planner:favorites' %}"
+                 class="btn btn-outline-secondary btn-lg">
+                Favorited Itineraries
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

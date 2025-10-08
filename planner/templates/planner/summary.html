@@ -1,0 +1,227 @@
+{% extends "planner/base.html" %}
+{% block title %}Itinerary Summary{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<section class="chigo-hero text-center">
+  {% if no_itinerary %}
+    <h1>Itinerary Unavailable</h1>
+    <p class="text-muted">Complete the survey to generate a trip.</p>
+  {% else %}
+    <h1>{{ itinerary.name }}</h1>
+    <p class="text-muted">Scroll through your schedule and print or save it for later.</p>
+  {% endif %}
+</section>
+
+<div class="container mb-4">
+  <form method="get">
+    <label for="itinerarySelect" class="form-label">Select an Itinerary</label>
+    <select name="itinerary_id" id="itinerarySelect" class="form-select" onchange="this.form.submit()">
+      <option value="">-- Choose an Itinerary --</option>
+      {% for itinerary in itineraries %}
+        <option value="{{ itinerary.id }}" {% if selected_itinerary and itinerary.id == selected_itinerary.id %}selected{% endif %}>
+          {{ itinerary.name }} 
+        </option>
+      {% endfor %}
+    </select>
+  </form>
+</div>
+
+{% if not no_itinerary %}
+<div class="container mb-5">
+  {% if not selected_itinerary %}
+    <div class="alert alert-info">Select an itinerary.</div>
+  {% else %}
+
+  <div class="row g-4">
+
+    <!-- Map -->
+    <div class="col-lg-6">
+      <div class="ratio ratio-4x3 bg-light rounded chigo-card d-flex align-items-center justify-content-center">
+        <div id="map" class="w-100" style="height: 500px;"></div>
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        {{ activities_for_coords|json_script:"itineraryCoords" }}
+        <script>
+          const map = L.map('map').setView([41.8781, -87.6298], 13);
+        
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+          }).addTo(map);
+        
+          const itineraryActivities = JSON.parse(
+            document.getElementById('itineraryCoords').textContent
+          );
+        
+          const coordsByDay = {};
+        
+          itineraryActivities.forEach(activity => { // group it
+            const day = activity.day;
+            const lat = parseFloat(activity.latitude);
+            const lng = parseFloat(activity.longitude);
+        
+            if (!coordsByDay[day]) {
+              coordsByDay[day] = [];
+            }
+        
+            coordsByDay[day].push([lat, lng]);
+        
+            L.marker([lat, lng])
+              .addTo(map)
+              .bindPopup(`<strong>${activity.place}</strong><br>${activity.description}`);
+          });
+        
+          Object.values(coordsByDay).forEach(coords => {
+            if (coords.length >= 2) {
+              L.polyline(coords, {
+                color: 'blue',
+                weight: 4,
+                opacity: 0.7
+              }).addTo(map);
+            }
+          });
+        
+          const allCoords = itineraryActivities.map(a => [parseFloat(a.latitude), parseFloat(a.longitude)]);
+          if (allCoords.length > 0) {
+            map.fitBounds(allCoords);
+          }
+        </script>
+      </div>
+    </div>
+
+    <!-- Activity list -->
+    <div class="col-lg-6">
+      <div class ="itinerary-activities">
+        {% for activity in activities %}
+        <div class="card mb-3 chigo-card">
+          <div class="card-header">
+            <div class="d-flex justify-content-between align-items center">
+              <span class="h5 mb-0" style="font-size: 1.35rem;">{{ activity.activity_name }}</span>
+              <button class="btn btn-sm btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#activity-details-{{ forloop.counter }}" aria-expanded="false" aria-controls="activity-details-{{ forloop.counter }}">
+                <i class="bi bi-chevron-down"></i> Details
+              </button>
+            </div>
+            <div class="text-body-secondary">
+              <strong>Day:</strong> {{ activity.day }}
+          </div>
+          <div class="text-body-secondary">
+              <strong>Category:</strong> {{ activity.category }}
+          </div>
+          </div>
+
+          <div class="collapse" id="activity-details-{{ forloop.counter }}">
+            <div class="card-body">
+              {% if activity.photo_name %}
+              <img src="{{ activity.photo_name }}" class="img-fluid rounded mb-3" alt="Image for {{ activity.activity_name }}">
+              {% else %}
+              <img src="https://via.placeholder.com/450x250.png?text={{ activity.activity_name|urlencode }}" class="img-fluid rounded mb-3" alt="Placeholder image for {{ activity.activity_name }}">
+              {% endif %}
+
+              <p class="card-text"><strong>Description:</strong> {{ activity.activity_description|default:"No description available." }}</p>
+              <p class="card-text"><strong>Address:</strong> {{ activity.address|default:"No address provided." }}</p>
+              <p class="card-text"><strong>Neighborhood:</strong> {{ activity.activity_neighborhood.name }}</p>
+              <p class="card-text"><strong>Estimated Transit Time:</strong> Not Implemented Yet.</p>
+
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+            
+      <div class="d-flex justify-content-end align-items-center mt-3 gap-2">
+        <button class="btn btn-outline-secondary" onclick="window.print()">Print / PDF</button>
+      
+        <form id="favorite-form" data-itinerary-id="{{ selected_itinerary.id }}">
+          {% csrf_token %}
+          <button type="button" id="favorite-button" class="btn btn-success">
+            <i class="bi bi-star"></i> Favorite
+          </button>
+        </form>
+
+      <!-- Favorite Success Modal -->
+      <div class="modal fade" id="favoriteSuccessModal" tabindex="-1" aria-labelledby="favoriteSuccessModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content shadow-sm">
+            <div class="modal-header">
+              <h5 class="modal-title" id="favoriteSuccessModalLabel">Itinerary Favorited</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <a href="{% url 'planner:favorites' %}" class="btn btn-primary">Go to Favorites</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ <!-- Non logged in Modal -->
+ <div class="modal fade" id="loginRequiredModal" tabindex="-1" aria-labelledby="loginRequiredModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginRequiredModalLabel">Login Required</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        You must be logged in to favorite an itinerary.
+      </div>
+      <div class="modal-footer">
+        <a href="{% url 'planner:login' %}" class="btn btn-outline-primary">Login</a>
+        <a href="{% url 'planner:register' %}" class="btn btn-outline-secondary">Create Account</a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</div>
+
+</div>
+
+
+{{ user.is_authenticated|yesno:"true,false"|json_script:"user-auth-status" }}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const userIsAuthenticated = JSON.parse(
+      document.getElementById("user-auth-status").textContent
+    );
+    const favoriteButton = document.getElementById('favorite-button');
+    const favoriteForm = document.getElementById('favorite-form');
+
+    favoriteButton.addEventListener('click', function () {
+      if (!userIsAuthenticated) {
+        const loginModal = new bootstrap.Modal(document.getElementById('loginRequiredModal'));
+        loginModal.show();
+        return;
+      }
+
+      const itineraryId = favoriteForm.getAttribute('data-itinerary-id');
+      const csrfToken = favoriteForm.querySelector('[name=csrfmiddlewaretoken]').value;
+
+      fetch(`/favorite_itinerary/${itineraryId}/`, {
+        method: 'POST',
+        headers: {
+          'X-CSRFToken': csrfToken,
+          'Accept': 'application/json',
+        },
+      })
+      .then(response => response.json())
+          .then(data => {
+            if (data.success) {
+              const favoriteModal = new bootstrap.Modal(document.getElementById('favoriteSuccessModal'));
+              favoriteModal.show();
+            } else {
+              alert('Failed to favorite itinerary.');
+            }
+          })
+          .catch(error => {
+            console.error('Error:', error);
+            alert('An error occurred.');
+          });
+        });
+      });
+    </script>
+
+      
+      
+      
+{% endif %}
+{% endblock %}

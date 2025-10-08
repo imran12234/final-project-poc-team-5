@@ -1,0 +1,83 @@
+{% extends "planner/base.html" %}
+{% block title %}User Login{% endblock %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        .login-container {
+            border: 1px solid #aaa;
+            padding: 20px;
+            background: white;
+            text-align: center;
+            width: 300px;
+            border-radius: 8px;
+            margin: 80px auto;
+        }
+        input {
+            margin: 10px 0;
+            width: 90%;
+            padding: 8px;
+        }
+        .error {
+            color: red;
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form method="post">
+            {% csrf_token %}
+        
+            <!-- Username field -->
+            {{ form.username.label_tag }}<br>
+            {{ form.username }}<br>
+        
+            <!-- Password field -->
+            {{ form.password.label_tag }}<br>
+            {{ form.password }}<br>
+        
+            <!-- Non-field errors (like invalid credentials) -->
+            {% if form.non_field_errors %}
+                <div class="error">
+                    {% for error in form.non_field_errors %}
+                        <p>{{ error }}</p>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        
+            <!-- Field-specific errors -->
+            {% for field in form %}
+                {% for error in field.errors %}
+                    <div class="error">
+                        <p>{{ error }}</p>
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        
+            <a href="/password/reset">Forgot Password?</a><br><br>
+            <a href="/register">Create account</a><br><br>
+            <button type="submit">Login</button>
+        </form>        
+    </div>
+</body>
+</html>
+{% endblock %}

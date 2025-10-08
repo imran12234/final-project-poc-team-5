@@ -1,0 +1,126 @@
+/* ChiGo – quick custom layer over Bootstrap 5 */
+
+/* brand colour */
+:root {
+  --chigo-black: #3e3e3e;
+}
+
+body {
+  background-color: #f9fafb;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* navbar ----------------------------------------------------- */
+
+.navbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index:1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+
+.navbar-brand {
+  color: var(--chigo-black) !important;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+  padding: .25rem .25rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: .5px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  filter: none;
+  background-size: 100%;
+}
+
+.chigo-logo{
+  height: 36px;
+  width: auto;
+  display: block;
+}
+
+.dropdown-menu {
+  min-width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2;
+}
+
+.navbar .container-fluid {
+  padding-bottom: 0.1em;
+}
+
+
+
+/* hero / section heading ------------------------------------ */
+.chigo-hero {
+  max-width: 680px;
+  margin: 4rem auto 2rem;
+  text-align: center;
+}
+
+.chigo-hero h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--chigo-black) !important;
+}
+
+/* section card ---------------------------------------------- */
+.chigo-card {
+  border-radius: .8rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,.06);
+}
+
+/* footer ----------------------------------------------------- */
+footer {
+  background: #fff;
+  border-top: 1px solid #e5e7eb;
+}
+/* dashboard-hero-refresh ----------------------------------------------------- */
+.dashboard-hero {
+  height: 40vh;
+  min-height: 240px;
+  background: url("../images/chicago-skyline.jpg") center / cover;
+  position: relative;
+}
+.dashboard-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);   /* dark overlay for text contrast */
+}
+.dashboard-hero > * {                 /* keep text above overlay */
+  position: relative;
+  z-index: 1;
+}
+
+/* action-card ----------------------------------------------------- */
+.dashboard-actions-wrapper {
+  margin-top: 4rem;      /* pulls card upward, leaves breathing room */
+  padding-bottom: 4rem;   /* extra space before footer on tall screens */
+}
+.dashboard-actions-card {
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  backdrop-filter: blur(3px);
+}
+
+

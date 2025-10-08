@@ -1,0 +1,57 @@
+from ...models import *
+from django.core.management.base import BaseCommand
+from planner.models import Neighborhood, PreferredCuisine
+
+class Command(BaseCommand):
+    def handle(self, *args, **kwargs):
+        Neighborhood.objects.get_or_create(name="River North")
+        Neighborhood.objects.get_or_create(name="River East")
+        Neighborhood.objects.get_or_create(name="Ukrainian Village")
+        Neighborhood.objects.get_or_create(name="Little Village")
+        Neighborhood.objects.get_or_create(name="Uptown")
+        Neighborhood.objects.get_or_create(name="Lakeview")
+        Neighborhood.objects.get_or_create(name="Wrigley")
+        Neighborhood.objects.get_or_create(name="Old Town")
+        Neighborhood.objects.get_or_create(name="Gold Coast")
+        Neighborhood.objects.get_or_create(name="West Loop")
+        Neighborhood.objects.get_or_create(name="South Loop")
+        Neighborhood.objects.get_or_create(name="Loop")
+        Neighborhood.objects.get_or_create(name="Lincoln Park")
+        Neighborhood.objects.get_or_create(name="Fulton")
+        Neighborhood.objects.get_or_create(name="West Town")
+        Neighborhood.objects.get_or_create(name="Andersonville")
+        Neighborhood.objects.get_or_create(name="Magnificent Mile")
+        Neighborhood.objects.get_or_create(name="Wicker Park")
+        Neighborhood.objects.get_or_create(name="Chinatown")
+
+        ActivityLevel.objects.get_or_create(name="Low")
+        ActivityLevel.objects.get_or_create(name="Moderate")
+        ActivityLevel.objects.get_or_create(name="High")
+
+        PreferredCuisine.objects.get_or_create(name="American")
+        PreferredCuisine.objects.get_or_create(name="Italian")
+        PreferredCuisine.objects.get_or_create(name="Mexican")
+        PreferredCuisine.objects.get_or_create(name="Chinese")
+        PreferredCuisine.objects.get_or_create(name="Japanese")
+        PreferredCuisine.objects.get_or_create(name="Thai")
+        PreferredCuisine.objects.get_or_create(name="Indian")
+        PreferredCuisine.objects.get_or_create(name="Mediterranean")
+        PreferredCuisine.objects.get_or_create(name="Korean")
+        PreferredCuisine.objects.get_or_create(name="Vietnamese")
+        PreferredCuisine.objects.get_or_create(name="French")
+        PreferredCuisine.objects.get_or_create(name="Greek")
+        PreferredCuisine.objects.get_or_create(name="Spanish")
+        PreferredCuisine.objects.get_or_create(name="Middle Eastern")
+        PreferredCuisine.objects.get_or_create(name="Soul Food")
+        PreferredCuisine.objects.get_or_create(name="Caribbean")
+        PreferredCuisine.objects.get_or_create(name="BBQ")
+        PreferredCuisine.objects.get_or_create(name="Seafood")
+        PreferredCuisine.objects.get_or_create(name="Vegan")
+        PreferredCuisine.objects.get_or_create(name="Vegetarian")
+
+        # Social Contexts
+        SocialContext.objects.get_or_create(name="Solo")
+        SocialContext.objects.get_or_create(name="Friends")
+        SocialContext.objects.get_or_create(name="Family")
+        SocialContext.objects.get_or_create(name="Work")
+        SocialContext.objects.get_or_create(name="Other")

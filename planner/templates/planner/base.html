@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>ChiGo – {% block title %}{% endblock %}</title>
+
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-9ndCy…" crossorigin="anonymous">
+
+  <!-- Custom -->
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/chigo.css' %}">
+  {% block head %}{% endblock %}
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-light bg-white border-bottom shadow-sm">
+    <div class="container-fluid py-2">
+      <div class="d-flex align-items-center gap-2">
+        <div class="dropdown">
+          <button class="navbar-toggler" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-top: 0.1rem; padding-bottom: 0.1rem;">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         <!-- Dropdown Menu -->
+          <ul class="dropdown-menu" id="menuDropdown">
+            <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:dashboard' %}">Dashboard</a></li>
+            <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:survey' %}">Survey</a></li>
+            <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:activity' %}">Activity Builder</a></li>
+            <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:summary' %}">Summary</a></li> 
+            <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:favorites' %}">Favorites</a></li>
+            {% if user.is_authenticated %}
+              <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:logout' %}">Logout</a></li>
+            {% else %}
+              <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:login' %}">Login</a></li>
+            {% endif %}
+          </ul>
+        </div>
+
+
+        <img src="{% static 'img/chigologo.jpg' %}" alt="ChiGo Logo" height="36" class="chigo-logo" style="height: 36px; width: auto; margin-bottom: 0; display: block;">
+ 
+        <a class="navbar-brand" href="{% url 'planner:dashboard' %}" style="font-size: 1.5rem; line-height: 1; padding-bottom: 0; margin-bottom: 0;">ChiGo</a>
+       
+   
+    </div>
+    </div>
+  </nav>
+
+  <!-- Off‑canvas nav -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNav">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title">Navigate</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="list-unstyled">
+        <li><a href="{% url 'planner:survey' %}" class="nav-link">Survey</a></li>
+        <li><a href="{% url 'planner:activity' %}" class="nav-link">Activity Builder</a></li>
+        <li><a href="{% url 'planner:summary' %}" class="nav-link">Summary</a></li> 
+        <li><a href="{% url 'planner:register' %}" class="nav-link">Create Account</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Main -->
+  <main class="flex-grow-1">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-3 text-center small">
+    &copy; {{ now|date:"Y" }} ChiGo · Demo 2
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-QF6Hod…" crossorigin="anonymous"></script>
+</body>
+</html>

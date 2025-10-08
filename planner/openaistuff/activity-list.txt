@@ -1,0 +1,125 @@
+Loop
+- Restaurants/Bars:
+  - WildBerry
+  - The Drunken Bean Coffee & Wine Bar
+- Attractions:
+  - Art Institute of Chicago
+  - Millennium Park
+  - Chicago Cultural Center
+Lincoln Park
+- Restaurants/Bars:
+  - Alinea
+  - Batter & Berries
+  - North Pond
+  - Tandoor Char House
+  - Pat's Pizzeria & Ristorante
+  - Delilah's
+  - The J. Parker
+  - Kingston Mines
+  - Parson's Chicken & Fish
+  - Summer House Santa Monica
+- Attractions:
+  - Lincoln Park Zoo
+  - Lincoln Park Conservatory
+  - Peggy Notebaert Nature Museum
+  - Alfred Caldwell Lily Pool
+  - Standing Lincoln Statue
+River North
+- Restaurants/Bars:
+  - Celeste
+  - Bub City
+  - XOCO
+- Attractions: None listed
+Gold Coast
+- Restaurants/Bars: None listed
+- Attractions:
+  - Oak Street Beach
+  - John Hancock Center
+Old Town
+- Restaurants/Bars: None listed
+- Attractions: None listed
+Wrigley
+- Restaurants/Bars:
+  - Barstool Bites
+  - RoadHouse 66 Gas N’ Grill
+  - Moe’s Cantina
+  - Nightmare on Clark Street
+  - Murphy’s Bleachers
+  - Sluggers
+  - HVAC
+  - Tin Roof
+- Attractions:
+  - Chicago Cubs Game
+Lakeview
+- Restaurants/Bars: None listed
+- Attractions: None listed
+West Loop
+- Restaurants/Bars:
+  - Nancy’s Pizza
+  - Federales
+  - Au Cheval
+- Attractions: None listed
+Fulton
+- Restaurants/Bars: None listed
+- Attractions: None listed
+West Town
+- Restaurants/Bars: None listed
+- Attractions: None listed
+Uptown
+- Restaurants/Bars:
+  - Chicago Magic Lounge
+  - Green Mill
+  - Uptown Lounge
+  - First Sip Cafe
+  - Immm Thai
+  - Sun Wah BBQ
+  - Honeymoon Cafe
+- Attractions:
+  - Riviera Theatre
+  - Aragon Ballroom
+  - Montrose Dog Beach
+Andersonville
+- Restaurants/Bars: (See Uptown)
+- Attractions: None listed
+Little Village
+- Restaurants/Bars: None listed
+- Attractions: None listed
+Ukrainian Village
+- Restaurants/Bars: None listed
+- Attractions: None listed
+Magnificent Mile
+- Restaurants/Bars: None listed
+- Attractions: None listed
+Wicker Park
+- Restaurants/Bars:
+  - Cava
+  - Shabu Plus Rotary Hot Pot
+  - Taxim Restaurant
+- Attractions: None listed
+River East
+- Restaurants/Bars:
+  - Carson’s
+  - Odyssey Cruises*
+  - Pinstripes
+  - HotHouse
+- Attractions:
+  - AMC Theater
+  - Pinstripes
+  - Ohio Street Beach
+South Loop
+- Restaurants/Bars:
+  - Eleven City Diner
+  - HoneyBerry Pancakes and Cafe
+  - Flaco’s Tacos
+  - Half Sour
+- Attractions:
+  - River Walks
+  - Field Museum
+  - Adler Planetarium
+Chinatown
+- Restaurants/Bars:
+  - MCCB Chicago
+  - Mango Mango Dessert
+  - Chiu Quon Bakery
+- Attractions:
+  - Ping Tom Park

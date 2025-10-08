@@ -1,0 +1,122 @@
+{% extends "planner/base.html" %}
+{% block title %}Trip Survey{% endblock %}
+
+{% block content %}
+<section class="chigo-hero mb-4">
+    <h1>Plan Your Trip</h1>
+</section>
+
+<div class="container mb-5">
+    <form method="post" id="survey-form" novalidate>
+        {% csrf_token %}
+        <div class="card p-4 chigo-card">
+
+            <!-- Trip Title -->
+            <div class="mb-4">
+                <label for="trip_title" class="form-label">Trip Title</label>
+                <input type="text" class="form-control" id="trip_title" name="trip_title" placeholder="My Trip" required
+                    value="{{ form.trip_title.value|default:'' }}">
+                {% if form.trip_title.errors %}
+                <div class="text-danger small mt-1">{{ form.trip_title.errors.0 }}</div>
+                {% endif %}
+            </div>
+
+            <!-- (All other fields remain the same) -->
+            {{ form.as_p }}
+
+            <!-- Submit -->
+            <div class="text-end mt-4">
+                <button type="submit" class="btn btn-success px-4">Generate Itinerary</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<!-- Loading Overlay w/ Minigame -->
+<div id="loading-screen" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(255,255,255,0.95); z-index: 9999; justify-content: center; align-items: center; flex-direction: column; font-size: 2.5rem;">
+    <div class="emoji-bounce" id="emoji-click-area" style="cursor: pointer;">🌆 <span id="middle-emoji">🍽️</span> ⏳</div>
+    <div id="loading-text" style="font-size: 1.25rem; margin-top: 1rem;">Planning your perfect trip...</div>
+    <div id="score-text" style="font-size: 1.1rem; color: #555;">Score: <span id="score">0</span></div>
+</div>
+
+<style>
+    .emoji-bounce {
+        display: flex;
+        gap: 1.5rem;
+        animation: bounce 1.2s infinite;
+        user-select: none;
+    }
+
+    @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const cuisineEmojiMap = {
+            "Mexican": "🌮", "Japanese": "🍣", "Italian": "🍝",
+            "Indian": "🍛", "Chinese": "🥡", "American": "🍔",
+            "Thai": "🥢", "French": "🥐", "Mediterranean": "🥙",
+            "Korean": "🍲", "Greek": "🥗"
+        };
+        const activityEmojiMap = { "Low": "🧘", "Moderate": "🚶", "High": "🏃" };
+        const socialEmojiMap = {
+            "Solo": "🧍", "Family": "👨‍👩‍👧‍👦", "Friends": "🧑‍🤝‍🧑", "Work": "👥"
+        };
+
+        const form = document.getElementById("survey-form");
+        const loadingScreen = document.getElementById("loading-screen");
+        const middleEmoji = document.getElementById("middle-emoji");
+        const emojiArea = document.getElementById("emoji-click-area");
+        const scoreText = document.getElementById("score");
+        const loadingText = document.getElementById("loading-text");
+
+        let score = 0;
+
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            // Pull values
+            const cuisine = document.querySelector('[name="{{ form.preferred_cuisine.name }}"]')?.selectedOptions[0]?.text.trim();
+            const activity = document.querySelector('[name="{{ form.activity_level.name }}"]')?.selectedOptions[0]?.text.trim();
+            const social = document.querySelector('[name="{{ form.social_context.name }}"]')?.selectedOptions[0]?.text.trim();
+            const budget = document.querySelector('[name="{{ form.budget.name }}"]')?.value;
+
+            // Create emoji loop
+            const emojiList = [
+                cuisineEmojiMap[cuisine] || "🍽️",
+                activityEmojiMap[activity] || "🎯",
+                socialEmojiMap[social] || "🧑‍🤝‍🧑",
+                (budget && parseInt(budget) < 1000) ? "💸" : "💰"
+            ];
+
+            middleEmoji.textContent = emojiList[0];
+            loadingScreen.style.display = "flex";
+
+            let index = 1;
+            const emojiInterval = setInterval(() => {
+                middleEmoji.textContent = emojiList[index % emojiList.length];
+                index++;
+            }, 3000);
+
+            // Minigame: click to increase score
+            emojiArea.addEventListener("click", () => {
+                score++;
+                scoreText.textContent = score;
+            });
+
+            setTimeout(() => {
+                loadingText.textContent = "Still working... high-quality plans take time 🧠✨";
+            }, 10000);
+
+            // Delay submit slightly to keep user engaged
+            setTimeout(() => {
+                clearInterval(emojiInterval);
+                form.submit();
+            }, 40000); // adjust this to match backend generation time
+        });
+    });
+</script>
+{% endblock %}

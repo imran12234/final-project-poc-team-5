@@ -1,0 +1,2319 @@
+{
+    "neighborhoods": [
+        {
+            "Loop": {
+                "location": {
+                    "latitude": "41.8837",
+                    "longitude": "-87.6325"
+                },
+                "restaurants": [
+                    {
+                        "WildBerry": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "brunch_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.6,
+                            "address": "130 E Randolph St, Chicago, IL 60601, USA",
+                            "location": {
+                                "latitude": 41.8847209,
+                                "longitude": -87.6228606
+                            },
+                            "websiteUri": "https://wildberrycafe.com/prudential.php",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Wildberry Pancakes & Cafe",
+                            "weekdayDescriptions": [
+                                "Monday: 7:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+                                "Tuesday: 7:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+                                "Wednesday: 7:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+                                "Thursday: 7:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+                                "Friday: 7:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+                                "Saturday: 7:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+                                "Sunday: 7:00\u202fAM\u2009\u2013\u20092:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJbwD-GqYsDogRFT9FTurCL5U/photos/AXQCQNQYpTw4ktB2_2XXcVBY2K6ub_6s8hmhk75NfJmCCDfeOr4DqDHMJGYQJFZ5bTGid_JQeD8nJgO1yF2d7fbYLo8M1fd0Yhno65w1toVcCr1cDCRRnJsKDryRTwPsHyqxmdPqMyGoVGe2ucoxDgYh5JL8j5t1r_QRc1W3pLI_RZuENmev7w_5v6uu6AZcwewC5UyZykE4p07rI7ahWprwgm3m1-wHTO5JVOWUx-oi8hpHEtjJ9uSyD8_lK45FVAvLIGZWLJ6wtO7Mh7gmp2oa6sd_uIVxIecTTFXO8UoVtOWE7mw6HrTCMXlkYiMnwvYGb9raANUBYTNU2ppah5PakWd6RVPCWwyHCltkwKGRT7YTZ-_EHLT8AD2QuNhjdRLJNxFVoDGSpdp_s4VwZK5Lbj6Il3NLLGYhiQ0eXFCPUbU"
+                        }
+                    },
+                    {
+                        "The Drunken Bean Coffee & Wine Bar": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "coffee_shop",
+                                "cafe",
+                                "food_store",
+                                "store",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.3,
+                            "address": "400 East South Water Street, Chicago, IL 60601, USA",
+                            "location": {
+                                "latitude": 41.8867601,
+                                "longitude": -87.61682189999999
+                            },
+                            "websiteUri": "https://www.drunkenbeancafe.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "The Drunken Bean Coffee & Wine Bar",
+                            "weekdayDescriptions": [
+                                "Monday: 7:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Tuesday: 7:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Wednesday: 7:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Thursday: 7:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Friday: 7:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Saturday: 7:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Sunday: 7:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJF24vu1crDogRZZ8v_J6CZxk/photos/AXQCQNQ7SnF0VQ091-O6u3Y53pBFOSDZz25pihLKdH7w58JJjmha-aHU0I5SnryukANF0xQywNDSOYofoxoRXM3ptLlyxR7jNA9G6aBwOgHXJ2ZCHOW8HeJH5mrUk313lCPVJr9M2XXlRZjy9BXGsOFam5hGuA3pWWiAcQ5IHFI8tE0i3iJURghVRbfARvl5BTGMPn4rB6ZQnrVR_msKx2sNbQjwhyCa00KOfsoZQadCX_Ync5SOQviQj1wuk3S297fKjrEzJ8yRIcu6VhcqaLOrinKsosfDS8toMbW87O54trWSw6C4OVSvpPafMSZYtsfzqTWFeM4Cv94VeSifyCcOO7_oOleyaPOn9FbEXE5fuKP_u8WHBRvC9oBB3ZuvU5J-7_Y_DbHSeLEfxMF8f_xs1WuI0sHFNHAWY89w68r66WOgIw"
+                        }
+                    }
+                ],
+                "attractions": [
+                    {
+                        "Art Institute of Chicago": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "museum",
+                                "tourist_attraction",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.8,
+                            "address": "111 S Michigan Ave, Chicago, IL 60603, USA",
+                            "location": {
+                                "latitude": 41.8796031,
+                                "longitude": -87.6223504
+                            },
+                            "websiteUri": "https://www.artic.edu/",
+                            "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+                            "displayName": "The Art Institute of Chicago",
+                            "weekdayDescriptions": [
+                                "Monday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Tuesday: Closed",
+                                "Wednesday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Thursday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Friday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Saturday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Sunday: 11:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJlUbZ4qMsDogR3tCinMzzKUg/photos/AXQCQNTTSICq569T41hqcHCY3FlDFdMGnxwSWskLJonI_IAeAfrw_0ripy5VLeRSEFKZ3dd47EQKlTVMjCGkFRLklxyXblScwaPfD5g338Pi5o0sRrn2B_w0yxsXbG5WRf5PMJAvIS2gXPwxAjuFLV1nq1R4Lq0sGY4xR_cGual5EVByYR498_VXO6JgAsnxFxCrU7sjEWh3UwtYKTAV-G36xudPKrDDZC298x50LReQl_mHryjKHADkfyHoVnuVx0bWvYAHj3LvrW8m1rS3WAa7tKJUVjkYLTDUnGJyCPQUgQTY52gS4o0Lx_niWudCO0E4ZmXPBFVpl2bkI4ou-hBvnY2TWa8LeA7Mdp-bG0SrllDdUPEq4XdkVRVwZn9c6h3BBoPRPSotbrlnqnFZINNz6MjG1ZQrWeTkp5WMdl3RV67Z773v"
+                        }
+                    },
+                    {
+                        "Millennium Park": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "neighborhood",
+                                "political"
+                            ],
+                            "rating": "",
+                            "address": "Millennium Park, Chicago, IL, USA",
+                            "location": {
+                                "latitude": 41.8827024,
+                                "longitude": -87.6193938
+                            },
+                            "websiteUri": "",
+                            "priceLevel": "",
+                            "displayName": "Millennium Park",
+                            "weekdayDescriptions": [],
+                            "photo_name": "places/ChIJgfAAC6csDogRK6Ew7nIj9ss/photos/AXQCQNRncqcAx_jB3K0euwatkSSNk4HdTBQNiqmLW4zVwIcE4QmFeHq6aPX31wme-8hGhB_X1zGce4GbJ5JHh_Qib_PlGrpOM5NHrK9gICribzYawXpp6LdRtSowfooy-HiEVUHmWHjyCZCa_nUO5gV8M4G131TBqR0fR3txCT38omw-bQPBoKvNgOQdIG0oBIvj4GOyqVMBayrefeXAWdgZeaBjhVtBH-xfwYXJ6t608cwsMlYj7-uwlbrUoCO8hyWjJLggk6putqMya24uIrn-d8W3R7uhgHjxhmBknEoe5JzGXLQiMOerMtrRSwaq6FsGB1_u0jL06M0sXAR47S7QUFQkmq3guKMjrhV8zHq0Q4QOzZdNhPzBJdAC0xEk41CGUuxl_wAy-Kisr6X4HLaCgiM6mG2SsllsoNZMFskh7XY9gg"
+                        }
+                    },
+                    {
+                        "Chicago Cultural Center": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "cultural_center",
+                                "tourist_attraction",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.7,
+                            "address": "78 E Washington St, Chicago, IL 60602, USA",
+                            "location": {
+                                "latitude": 41.8837536,
+                                "longitude": -87.6249515
+                            },
+                            "websiteUri": "http://chicagoculturalcenter.org/",
+                            "priceLevel": "PRICE_LEVEL_FREE",
+                            "displayName": "Chicago Cultural Center",
+                            "weekdayDescriptions": [
+                                "Monday: Closed",
+                                "Tuesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Wednesday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Thursday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Friday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Saturday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Sunday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJHzRIuaUsDogRP_AJdMSgzjI/photos/AXQCQNTj5PRYTDR3XM_9_djOMIelveLTyRK51bPf1d6jf_0-5WPuyuUOGOhGYS_xyfbRP3UEztcxJ6JCTXJ7Pqhf8cwumUZy10GQv45oIlWV3GqMqPAccy4fPsPsIuoWIRi1-anZzBETgCWHt9j6Br4Hk_JrXEFoWhxB9-6ZgoM9InCIFrMOxH5FkJdsYyFcQ6gwvmFO_-QPzHmZe8rEwRzmrZLerLAugrvbeLQgPajOKBUdE0s0fzhBtH0-T_qT_nLF8QAsIrzqvhA5AHn7DZUsi7mhEVwCF6fcDJUFdYuuS93YiY6LZ3G0Uv4kqcFJB6v3jMVDnVIUPZHibXK3_oG6A7MTktwxYTq1wVaQY_hwrbAeP3S0LGTyC3Z9Bk4aTcZ8aYBjh-ZqXx3kEI6Rbqy_xqNB6uqD3qGcv84T9cGdawo"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Lincoln Park": {
+                "location": {
+                    "latitude": "41.9214",
+                    "longitude": "-87.6513"
+                },
+                "restaurants": [
+                    {
+                        "Egg Tuck": {
+                            "queried_by_places": true,
+                            "location": {
+                                "latitude": 41.9259178,
+                                "longitude": -87.64055049999999
+                            },
+                            "tags": [
+                                "breakfast_restaurant",
+                                "coffee_shop",
+                                "cafe",
+                                "food_store",
+                                "korean_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "store",
+                                "establishment"
+                            ],
+                            "rating": 4.7,
+                            "websiteUri": "https://www.eggtuck.com/?olonwp=JjBtp_vMLk25gkYh_bnoiQ",
+                            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+                            "displayName": "Egg Tuck",
+                            "address": "2411 N Clark St, Chicago, IL 60614, USA",
+                            "weekdayDescriptions": [
+                                "Monday: 7:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+                                "Tuesday: 7:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+                                "Wednesday: 7:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+                                "Thursday: 7:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+                                "Friday: 7:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+                                "Saturday: 7:30\u202fAM\u2009\u2013\u20093:30\u202fPM",
+                                "Sunday: 7:30\u202fAM\u2009\u2013\u20093:30\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJ11Chn2jTD4gRP5Kpyd60wSw/photos/AXQCQNT1ptiKkbIgX7VabVwA8pjstQMDJ7Swismrc_OBuhw8fAgBcT4n8Kc2PByYnH6pal-6XEb1rDHJv_B3gpi_UabvSzR_h2fvQs2NEzUnXduwGg93WgTkxfe6NxNQ045aEfrCNDl_kc5SQRc7qCiqj5ae1EtuPp5L104ykI72JBTNrcV2_W7VVMDSSnf7r2L8NvEAwl5MjjrqgefD909pPaneeH-cDo7wCaCkDd5Z9KjCOn07SO_0A6HNNsrrNzVF449Z914j00l03ZDyFyc7rVxp3NvexYI9T6bQZaIzbBrjfySKKW9LS0NKQ2CmQgp2PLLvnBX39jKRFO_kVC_IeCS0oTzh7aax1oIZAOXpAwuymCFaVOFqMTq4VLxWic4YNPEPhANSCiEHeJSK076WcmctDLhvLe3p3N-ssJcwFFeQZGkv"
+                        }
+                    }
+                ],
+                "attractions": [
+                    {
+                        "Lincoln Park Zoo": {
+                            "queried_by_places": true,
+                            "location": {
+                                "latitude": 41.921703,
+                                "longitude": -87.6336403
+                            },
+                            "tags": [
+                                "zoo",
+                                "tourist_attraction",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.6,
+                            "websiteUri": "https://www.lpzoo.org/",
+                            "priceLevel": "PRICE_LEVEL_FREE",
+                            "displayName": "Lincoln Park Zoo",
+                            "address": "Chicago, IL 60614, USA",
+                            "weekdayDescriptions": [
+                                "Monday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+                                "Tuesday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Wednesday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Thursday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Friday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Saturday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+                                "Sunday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJB5o6CWvTD4gR25QC-QbMQAk/photos/AXQCQNQkCQLkfw24MLjX_rUOgh_VUnOeU_Yv81gP26GV-H0nCqf_cXkTKTF16D5x0_ziiYtKDm5zuRojBrc0Ef0h3ACLfWosF89NSA1Zzps0qZpAsR_U95BLUbO4RZDz7xgEgAnbmPbk7855JxzSGEXNw1AOUwSYYWtOe2xOQxyklDhZ1jAlPJk_6uMgRzNxbmnuFf0PM154pYvktKI9urWVsiWTo61cHkqqIZMcVNKe9Ac0SSDTdZiL_GxVP45AOZV-NIurp35OeVLf8eqZI7AJOgIfwEkJ3bxr1NWw8w5TEjHh3bP7iRTWQqqLAeBVgoIyGDEqFSHwkJq3ct807_5obauPA6TfaFy9_p-Bjd28wF8_uk8l87lRUyrSGTBof3xs1QkP4sopKUHA-9Yv5I7LNhyMiV4OS7HGbSckVcd0iCS44vS1"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "River North": {
+                "location": {
+                    "latitude": "41.8925",
+                    "longitude": "-87.634"
+                },
+                "restaurants": [
+                    {
+                        "Celeste": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "night_club",
+                                "bar",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 3.9,
+                            "address": "111 W Hubbard St, Chicago, IL 60654, USA",
+                            "location": {
+                                "latitude": 41.88989,
+                                "longitude": -87.6316379
+                            },
+                            "websiteUri": "https://www.celestedisco.com/",
+                            "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+                            "displayName": "Celeste",
+                            "weekdayDescriptions": [
+                                "Monday: Closed",
+                                "Tuesday: Closed",
+                                "Wednesday: 5:00\u202fPM\u2009\u2013\u20094:00\u202fAM",
+                                "Thursday: 5:00\u202fPM\u2009\u2013\u20094:00\u202fAM",
+                                "Friday: 5:00\u202fPM\u2009\u2013\u20094:00\u202fAM",
+                                "Saturday: 7:00\u202fPM\u2009\u2013\u20095:00\u202fAM",
+                                "Sunday: Closed"
+                            ],
+                            "photo_name": "places/ChIJDwYuZbEsDogRyk4CxG12inc/photos/AXQCQNS5e7xnPzqdX-Z4K6zTjOX-yngcNRCCLmOiNaoG76uEotSzfQ_3JrP5hfoxrOb8ff-5bdGNOI5iZGdDzWMQsaOP_l0t_UkwaGNY5lE75y8RfK-NtX0H8En04SUED_J7LRJ5FXdHm4hyjqrrAYi-Dabe5ZZP5ah2IIpdTgkeYadvxvuY6MVFcCyYuRbH7bz90oWvwYQgXVZib2Hubgyv68OQkqdMgvKfC_LyKxSLLIT6sdgE6WYK2rY9TjXkL73atU7z_neDJKl7EVt21PgiveUgxYCPLKRd4foulKP7hmqHpg"
+                        }
+                    },
+                    {
+                        "Bub City": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "barbecue_restaurant",
+                                "bar",
+                                "event_venue",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.4,
+                            "address": "435 N Clark St, Chicago, IL 60654, USA",
+                            "location": {
+                                "latitude": 41.8902518,
+                                "longitude": -87.63089269999999
+                            },
+                            "websiteUri": "http://www.bub-city.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Bub City",
+                            "weekdayDescriptions": [
+                                "Monday: 11:00\u202fAM\u2009\u2013\u20091:00\u202fAM",
+                                "Tuesday: 11:00\u202fAM\u2009\u2013\u20091:00\u202fAM",
+                                "Wednesday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Thursday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Friday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Saturday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Sunday: 3:30\u202fPM\u2009\u2013\u20091:00\u202fAM"
+                            ],
+                            "photo_name": "places/ChIJMaurKrIsDogRfzxokqjCMys/photos/AXQCQNQYtgS2DhCQt9gTskSPJKpv0GR2Ig8v1ySm2DBvMXiRLzrV9k0lY7-GSZpHogi2NxqpU0Xc3zrZ55DTe_Ve5_nSnwcEoyGhoQ9IdXpcnIv6_QXYJ8lZ23Xnzps5ixi9VL4bSg3n_FW81E3AANE5RrdlW0rd1CQYkQsUGMe4Pk4YvAx8103rhSWyWXxhiPtFC4rx_MgHAfe5fuSLfeaaKRhXUEhkSqaAxyYo3FCACkmrFkQTLVV-dKqyfeKsiouQ-fKtrZCdUSe-0LdrKLXaSVhcKt_zhLPoY-S9R-nBnyVmuQ"
+                        }
+                    },
+                    {
+                        "XOCO": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "mexican_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.5,
+                            "address": "65 W Illinois St, Chicago, IL 60654, USA",
+                            "location": {
+                                "latitude": 41.8907351,
+                                "longitude": -87.630605
+                            },
+                            "websiteUri": "https://xocochicago.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "XOCO",
+                            "weekdayDescriptions": [
+                                "Monday: Closed",
+                                "Tuesday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Wednesday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Thursday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Friday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Saturday: 10:30\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Sunday: Closed"
+                            ],
+                            "photo_name": "places/ChIJFyS_LLIsDogRfYRCJl5tTRk/photos/AXQCQNQgL_9-d-x6eAZFnUsNJqMNL54bAgdV-OmZhHAiqcfQY4N12-DRQBhF3PQNi3EOufLfgvA6ew0cQnSmO-0CYWFfC3_KivHllMe2AmlFfuDfLEPmUazPnz9VyUfHvqX2sWJYzhBAVURvFdw5fTdtqif5DU0RG8mRsMNCirrrqELuxExbM-s_NJUKsvrqfZ1KpyC9_PdkhtHl8BgyvX56fm4ioYchCb-eB6Fb81pL_EEG7HH4rFJngxetreAyzrAbS9MRFaP8wLmIou7PE67N2JvAuPt72wIRE-GEfm8NJfVezofR5gD4f1jq-EEjXnofHfzC8k_Qyw1wTIXc3sXSgbSxmHwi5jBOx32PDMMppFMDKOg7_G0iFbOG43eHk8f8wkdQF2PR6FrmMrkJf-A0y_jCPT8Aq8GDm5_U1caBeXzyBm-v"
+                        }
+                    }
+                ],
+                "attractions": []
+            }
+        },
+        {
+            "Gold Coast": {
+                "location": {
+                    "latitude": "41.9041",
+                    "longitude": "-87.6275"
+                },
+                "restaurants": [],
+                "attractions": [
+                    {
+                        "Oak Street Beach": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "beach",
+                                "natural_feature",
+                                "establishment"
+                            ],
+                            "rating": 4.8,
+                            "address": "Oak Street Beach, Illinois 60611, USA",
+                            "location": {
+                                "latitude": 41.9030118,
+                                "longitude": -87.6228392
+                            },
+                            "websiteUri": "http://www.chicagoparkdistrict.com/parks/oak-street-beach/",
+                            "priceLevel": "",
+                            "displayName": "Oak Street Beach",
+                            "weekdayDescriptions": [],
+                            "photo_name": "places/ChIJQZJQJFfTD4gRajRN4wWCges/photos/AXQCQNSy9V-bd52aKFJaJTpKd3P58WljROOaTwy0xUftu0B5ZbXyoBg7bEY0bDZJgJSTbb6Q9O_luNpiCd9bnhpGJtBIsQhC0aaFLQrD3BpP3TOq4rVLb5skllgOgfJdguS3O_9SrQj2RlGB1C7uW_T4GuHvchmMEUdvAuRDJUsG9PF1frwM6hm-QHENQFJTMH4HbXsKglIXGTBP5ZBHyiOaGkWDpvThCaqpIH2sevvENAg8Kd2bqTlLArLMLfy5CJ2MGqH141jOvjmm6aP-_VPrgFzVG1-v-Pfk-X8h9kzm7pQczEbB7KUbD-2VrROJqyXG0jMBgDHaff3wGkFE4xkcpOzIYt2t-mHSeZ9nNDNFMBpbL4j90xUJU_8y16cR2qBjYYWh9HpW-ebMpCMW1h2U9CdJCNAbcYnAiY7axn0PNYpSug"
+                        }
+                    },
+                    {
+                        "John Hancock Center": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "tourist_attraction",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.7,
+                            "address": "875 N Michigan Ave, Chicago, IL 60611, USA",
+                            "location": {
+                                "latitude": 41.8987699,
+                                "longitude": -87.6229168
+                            },
+                            "websiteUri": "https://875northmichiganavenue.com/",
+                            "priceLevel": "",
+                            "displayName": "875 North Michigan Avenue",
+                            "weekdayDescriptions": [
+                                "Monday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Tuesday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Wednesday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Thursday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Friday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Saturday: Closed",
+                                "Sunday: Closed"
+                            ],
+                            "photo_name": "places/ChIJNbKQElTTD4gR0JKC0nXHXWg/photos/AXQCQNTgtAcxC__DGkatZcC0-La8QLxDwQwMDXKhVpENjeoFPm11GsLf6k2GCwLeVJB08-37Mz8iiSPaTHdmXab1DxsjODUAYwuKxhD0oq-NafZUnGCm2Wcrn2U73p4lhwyhUWY0XrVvG7ihPLPX2qBsaL3uMV2f0dKF0AtIVLJqM_4QnGWE8gE4y0cNZd1CStH8tI6Wz9DPgJTOSYwoBR9GTzK88h9b24zlzG7X_5sPQqTrWTnqfCIeQwC99DhQv9i8sMCzEudjScRzL0dqxXnHhTkp_4No9XLWvqdtYnAbEESiQMmL-eCDnl3oyPGEY4YO5yFtc8WFbfHj0l4i31utf3eG5RxyaaheLclr9VatFpFbD7nSWNOuGOROAnjAvSOcd3U3hzhe67MScrjyihQZfCI0CgEYXSFbSWp303o7sQbWrbG6"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Old Town": {
+                "location": {
+                    "latitude": "41.9106",
+                    "longitude": "-87.6382"
+                },
+                "restaurants": [],
+                "attractions": []
+            }
+        },
+        {
+            "Wrigley": {
+                "location": {
+                    "latitude": "41.9484",
+                    "longitude": "-87.6553"
+                },
+                "restaurants": [
+                    {
+                        "Barstool Bites": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "bar_and_grill",
+                                "bar",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.7,
+                            "address": "2856 N Southport Ave, Chicago, IL 60657, USA",
+                            "location": {
+                                "latitude": 41.9341505,
+                                "longitude": -87.6637858
+                            },
+                            "websiteUri": "https://southportbettys.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Southport Betty's",
+                            "weekdayDescriptions": [
+                                "Monday: 5:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+                                "Tuesday: 5:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+                                "Wednesday: 5:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+                                "Thursday: 5:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+                                "Friday: 12:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Saturday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Sunday: 10:00\u202fAM\u2009\u2013\u20091:00\u202fAM"
+                            ],
+                            "photo_name": "places/ChIJPbsibP7TD4gRZBLJ04aRqaE/photos/AXQCQNTgvsuiYBfVRSXNhRRl1q3BHt5a4Lg2kKCAaBe2Mh6iVJfoI03GON7Ng_k_rPtZ37PsYPJCMK8EchSb3Byzo6eAq9KBcS3FEa8nKqVJYVah-YJXuhp9SCx7om8iYS-PSxya_On3N4dG02aFwhhDQftAQsOSVrfhsafLTK5JI45RxCkNsUDXUp3m0ZCAedGAYzhVummc5nmJDJ6vhTh0-S5hoG_BEazGRIDvpyW0rklzAw89_X0DvKoXf3SaOH-7inGDRyuBICe5smdw-5uzOC5bCBfZfVN0HC9dCH0ZeSRZpyEQBTfkTSGDerwOzwYP92VYaF3p-DzfHvM6spMv2NB7jxO2wZHSy8Wt7tPwzfPwBqhiAhiW5gqhBemf18-Hc4fgEp2E3wNiqC8vX9BNgE57obyYr2vKqwW6Ao4sw3gBa7bX"
+                        }
+                    },
+                    {
+                        "RoadHouse 66 Gas N Grill": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "bar",
+                                "brunch_restaurant",
+                                "bar_and_grill",
+                                "american_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.3,
+                            "address": "3478 N Clark St, Chicago, IL 60657, USA",
+                            "location": {
+                                "latitude": 41.9453806,
+                                "longitude": -87.65546669999999
+                            },
+                            "websiteUri": "http://roadhouse66gas-n-grill.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Roadhouse 66 Gas N' Grill",
+                            "weekdayDescriptions": [
+                                "Monday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Tuesday: 3:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Wednesday: 3:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Thursday: 12:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Friday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Saturday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fAM",
+                                "Sunday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fAM"
+                            ],
+                            "photo_name": "places/ChIJ9cVjga7TD4gRtfwZv3TXUwY/photos/AXQCQNQMdyQ85uE-QHlwMHtlgbCsUxiukR9M9HfcPMaLTs8JeeWg4IbQuBnY2DmMJpnxG3JMdRGJOo1_bZzWsXO1iIUjnzW2hK6kjbDdaqeBZOj_Pq5t0zV7xEVMDlI6Vbw6BWafuUUNMjc2SWNrzh2N0rjuqK-F7XG0wy6F_A9NC0GGQz71wvkEExA16pRQ7sW2VPQebs6o4kpGj282vXBblL0QL6Zdp9C_ueSO4TT4nseNZ9Mrcvz0OcY-RPUhKzEXvLdhICAGgHofHQMci5JoRtbd6kPsVAq5vguNUIW0x2UwZN2W0wMxKtMgwDMDfVLqSVWi-DMc_w_rQZTE4PMXPj72ds801D9gtVElQYuJivyBfSkSXVi_BrPqgvonfKNPnspgooSCJ9w3rJP4l6fqEsriMHiCc2MGf41abOdAITbRPw"
+                        }
+                    },
+                    {
+                        "Moes Cantina": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "mexican_restaurant",
+                                "brunch_restaurant",
+                                "bar",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 3.6,
+                            "address": "3518 N Clark St, Chicago, IL 60657, USA",
+                            "location": {
+                                "latitude": 41.9460969,
+                                "longitude": -87.6559027
+                            },
+                            "websiteUri": "https://www.moescantina.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Moe's Cantina - Wrigleyville",
+                            "weekdayDescriptions": [
+                                "Monday: Closed",
+                                "Tuesday: Closed",
+                                "Wednesday: Closed",
+                                "Thursday: 3:00\u202fPM\u2009\u2013\u200912:00\u202fAM",
+                                "Friday: 5:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+                                "Saturday: 3:00\u202fPM\u2009\u2013\u20093:00\u202fAM",
+                                "Sunday: 3:00\u202fPM\u2009\u2013\u200912:00\u202fAM"
+                            ],
+                            "photo_name": "places/ChIJ0Wv2iLLTD4gReKr2MTZUhxA/photos/AXQCQNS1YqDo7tpmsYtzCwJZvWr-XVMyYbj5Pip5PFf7b3Q9avOYr7CHhleYsXB-AfRuKiRNJ81QfGgOgO9-wQpa93j_mk4Jmm4GPlH1Emo5QWync0Ochb0xatAs-KJiNLBm8yVXNNNh4JAbLIumJMM-b5YA6ROhUUE2IlvfThQMPGGym1c7uVr-SESnoDRnVe9ZAsRiplJYkytWH9dSIYl1myZQ8wdlpuNap0kG6L-opA2VfDkW4KfT9hIv0qNVY3nwim5T1mGgrItQ8tU-Jy76UlrUrpy8zIqTQT511Mgtta4XSXa_RP1KuuB2UJ-KDUcqvOg1TEO0c8Vhk_BfqW0QZ9ZD8DWav8ey3UHCS13ycTGDDIHfXjZkFxF4TqwNEQX5J6HLvAjCifF1XAcdXgZwR9sMjnvsb36HVWwgtfM4oi8vFIKl"
+                        }
+                    },
+                    {
+                        "Nightmare on Clark Street": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "event_venue",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 3.2,
+                            "address": "3505 N Clark St 2nd Floor, Chicago, IL 60657, USA",
+                            "location": {
+                                "latitude": 41.945870899999996,
+                                "longitude": -87.6550862
+                            },
+                            "websiteUri": "https://nightmareonclarkst.com/",
+                            "priceLevel": "",
+                            "displayName": "Nightmare on Clark Street",
+                            "weekdayDescriptions": [],
+                            "photo_name": "places/ChIJkbXY6iPTD4gRNPQBu2bOF6w/photos/AXQCQNTRvR2vJEYpstgvoXme_XT5glo_sj-JR8WUio3mqVIHBg9xhD3Ks_mnQcsw7Rn0lzr9UrMyaboYbN2CEHODCeIWEkmT7M9oW9JFKrlRGhCxguULaJ8sateJmRNRWCB1njGx4idbU04o4pldJu96J0ZGuf0E5c24fbf-1G71UFJnFglmCJ2b45vgvN-8qOj6L6e1ZHdzZZWn1PiDODYLwdHNleq-fNgNoe76J6H8z2i3AY33eP6Qf9Vm-byIdEcocwu7uUENJYPNu6TcMKYDW4R3zVMlCsTdc0nQyfZUV6jjnw"
+                        }
+                    },
+                    {
+                        "Murphys Bleachers": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "bar",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.5,
+                            "address": "3655 N Sheffield Ave, Chicago, IL 60613, USA",
+                            "location": {
+                                "latitude": 41.9489122,
+                                "longitude": -87.65420879999999
+                            },
+                            "websiteUri": "http://www.murphysbleachers.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Murphy's Bleachers",
+                            "weekdayDescriptions": [
+                                "Monday: 9:30\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Tuesday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Wednesday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Thursday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Friday: 9:30\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Saturday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Sunday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM"
+                            ],
+                            "photo_name": "places/ChIJZ7VOx7PTD4gRh68QMrg0TZA/photos/AXQCQNRX3Jt3BP1UG_fxWIoCBrVc8oL6RvliUEp9nP-DtUx7ZYFY-zRpAGkEWUMK8AcVmPE27LR-8dsUgGLlRTnDZSzM94PxdNTdCR-Zx_meC2i4Rb3WvRF2nFQrhzPZX8ln8a7QJmxQSDT9nev_aPbB7iyM0iqWh-Cqcvce1Jkznj-psxWVrQ3x1cx4z51Aq-_gRzpWju36cHh-3jrjP-bpY5V2_HnGzLROMQsEIEPo82iZCp6oJBW-EKjd90NK-rIL2Xcmvugc_kA6TySkU7ZGLbuIxD_d0nhSaP6Sx9TnqmI_sQ"
+                        }
+                    },
+                    {
+                        "Sluggers": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "pub",
+                                "event_venue",
+                                "bar",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.2,
+                            "address": "3540 N Clark St, Chicago, IL 60657, USA",
+                            "location": {
+                                "latitude": 41.946595599999995,
+                                "longitude": -87.6562208
+                            },
+                            "websiteUri": "http://www.sluggersbar.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Sluggers World Class Sports Bar and Grill & Dueling Pianos",
+                            "weekdayDescriptions": [
+                                "Monday: 3:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Tuesday: 3:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Wednesday: 3:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Thursday: 3:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Friday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Saturday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fAM",
+                                "Sunday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM"
+                            ],
+                            "photo_name": "places/ChIJb1zKja3TD4gR3x9Jko7j4Yw/photos/AXQCQNRvoIJ_16AjAmlnidAwHkg2ZcmQmU9j4TP44dyr2vzyzNhlnpyVj5MnmK9TpiMR9lMy8JPbaoyzLbyTRh7pLd6o61cVlp6UE2JgQflhIknjjab2jk7c-PvZWtWoQ0WMG-Huh018f5liFHnZfWS06KhP0_7azjEc0tWs3SXjFMCQhsiIoO_gEPUynct1oRrtk646lCkm3C9xZ2Ara23cxgN8bvw10lz_oW6OldS-8b--uOvIbDX6GdCCuMHH8LeCK2E8c26g-rglAJoWSl8mTiynhPrYjHf23HlgWmhTKv6gyB3x_qYxW731qX71GtrpxvwV5sUwGwn1Yzm-NohX9kFqZnGL0gUcL29b8zXbPsRQLK2Qk8kH3CzUQVkHm6xrnwjyb2r8FvW3YReocSg6p_QTBXQFqYXXz7j3P9VQ_hAoThUQKcRHn3VeEJShfjL2"
+                        }
+                    },
+                    {
+                        "HVAC": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "bar",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 3.8,
+                            "address": "3530 N Clark St, Chicago, IL 60657, USA",
+                            "location": {
+                                "latitude": 41.946247199999995,
+                                "longitude": -87.65614389999999
+                            },
+                            "websiteUri": "https://www.hvacpubwrigley.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "HVAC Pub",
+                            "weekdayDescriptions": [
+                                "Monday: Closed",
+                                "Tuesday: Closed",
+                                "Wednesday: Closed",
+                                "Thursday: 7:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Friday: 7:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Saturday: 3:00\u202fPM\u2009\u2013\u20093:00\u202fAM",
+                                "Sunday: Closed"
+                            ],
+                            "photo_name": "places/ChIJ79dqjrLTD4gRCYX1tuCTjWA/photos/AXQCQNQyA9_fXF3ZXO4y1joxndmwIx6Nay-EpwiB9STpODPj8a7M18P382pJ2Ofkj6hiSzL1aYRtUNF2L431DOh4LRdW92m7F3USqs-e0jP4z58RLz_QXTT9J9lvidfO1XIlWHrNDdjR2M5A_lLenL8xVLoRf3hXsaNcS-5K6tDPNbS38_X9bQFW-fXrwZHJB8tADbFzYr75AvdT4KSE5LgFuPkdhaMCP7JcOMZSlZrOKeUG6cyxap0Dq_JItN2XyQKGo5oWMKs6Ac_VWVU_ydmNUvfA_OhsqHCA7vrFWJ70C2V4AQ"
+                        }
+                    },
+                    {
+                        "Tin Roof": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "bar",
+                                "event_venue",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.2,
+                            "address": "3519 N Clark St, Chicago, IL 60657, USA",
+                            "location": {
+                                "latitude": 41.9461965,
+                                "longitude": -87.6554597
+                            },
+                            "websiteUri": "https://tinroofchicago.com/",
+                            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+                            "displayName": "Tin Roof",
+                            "weekdayDescriptions": [
+                                "Monday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Tuesday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Wednesday: 4:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Thursday: 4:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Friday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Saturday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fAM",
+                                "Sunday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM"
+                            ],
+                            "photo_name": "places/ChIJj8-ItWfTD4gRt1QR6ubxXBk/photos/AXQCQNQpLDF8qxwQIUIoUUlgBXsE4_qiwzPLkf0PXObiV6mtc-pzdmY6WY1TWDhHrxbmj4_6Tng7GqpdNbnzXPWvGKy8ezakWvvwk0G8q3CNB00SKqKkwWCYo25qQC55h-zHpBwvDIukbR3o-MwW-l4XoQmhpQovJvNB4MsUc7VxxWw04cU_YmFmw5gMMzzC-eTJL6McBdfXFz-EZnvCP7e6CTRbBPQg75lzs0Ke2FBzkbrEEuNNPq8lKnAXbjQdLgakrqjVaG3IuuEwdV-mf1yhorZKm_sjhCpMxIhkITQeusYS4Q"
+                        }
+                    }
+                ],
+                "attractions": [
+                    {
+                        "Chicago Cubs Game": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "store",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.7,
+                            "address": "1060 W Addison St, Chicago, IL 60613, USA",
+                            "location": {
+                                "latitude": 41.947595299999996,
+                                "longitude": -87.6562988
+                            },
+                            "websiteUri": "http://chicago.cubs.mlb.com/ticketing/?c_id=chc",
+                            "priceLevel": "",
+                            "displayName": "Chicago Cubs Box Office",
+                            "weekdayDescriptions": [
+                                "Monday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+                                "Tuesday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+                                "Wednesday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+                                "Thursday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+                                "Friday: 8:30\u202fAM\u2009\u2013\u20096:00\u202fPM",
+                                "Saturday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+                                "Sunday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJId-a5bLTD4gReBBJprexU6M/photos/AXQCQNRPbEjDudvSv9mNBcTkCM5JTL2XLzNN6eX5kMO34evbBtA1ndoCctMgp_EoaBTaECBJ-IfXv3oXfsTRcqFuQ2kD3ItWB-Yc72wxNIRXYsTy-IFBE5-wRh5yRkW8QXZtIgHW_5_T4KFdDJYpMpufDzRH67HFhLSZd8tCt0khM1nzN20TaR4EQ_K61fOXv_pR0xj9egqLPP1ozfKmOZ9Y7QEd0BzeekWbSrBC2hSlWJXYVSsMFxj6NFHeNExwKnhvZAHKA_1MiXXNwbsFCNb_OYKxcZtT7Yo_A5A70Rjrh-Y6uMKlCuIVtA-9YbD_OyMcxau5cS5CIR5p73C6ttki9bIiAf5eqDe70GiPjy32KhIenRbBRUCc-EZx0Dg4B7BzWfb6p_BSNUEHMNPRcBe2LH3mFXo78DgTtD1Q6D1MN5W-ujvS"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Lakeview": {
+                "location": {
+                    "latitude": "41.9417",
+                    "longitude": "-87.6533"
+                },
+                "restaurants": [],
+                "attractions": []
+            }
+        },
+        {
+            "West Loop": {
+                "location": {
+                    "latitude": "41.882",
+                    "longitude": "-87.652"
+                },
+                "restaurants": [
+                    {
+                        "Nancys Pizza": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "pizza_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.5,
+                            "address": "1000 W Washington Blvd, Chicago, IL 60607, USA",
+                            "location": {
+                                "latitude": 41.883155599999995,
+                                "longitude": -87.6531285
+                            },
+                            "websiteUri": "https://nancyspizza.com/locations/west-loop/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Nancy's Pizza Chicago West Loop",
+                            "weekdayDescriptions": [
+                                "Monday: 11:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Tuesday: 11:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Wednesday: 11:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Thursday: 11:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Friday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+                                "Saturday: 11:00\u202fAM\u2009\u2013\u20091:00\u202fAM",
+                                "Sunday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJqX5coRctDogR3DW47ijHFT8/photos/AXQCQNRzANA3ssjyPnf0TCqg_swwGVxlwZIxEqnPUpjxZNWPWqkd1WhVxN2L_AK1u2RvlKewmCU5Zl219X9YQyo4ZeQXUPt_e1uFoXs6azPDrlh8I4P40LiayiHc9yWSukQOIUnvbynE5Ne5_hPbmYmXsDdcUoWXamODzS683SXwvreiYUm3TQxWm6CZELSa4aZeThWsU0jrGRqnMCiAWez8-9E1wkgc7GngCanufsLnpjDiU6cIHKE1PoxZ7fY0gcrIDrPkQ4c1_XawK1KQfILqNjZHxWYm6LzA36vTs1kWpqbVmw"
+                        }
+                    },
+                    {
+                        "Federales": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "bar",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.4,
+                            "address": "180 N Morgan St, Chicago, IL 60607, USA",
+                            "location": {
+                                "latitude": 41.885216199999995,
+                                "longitude": -87.6523893
+                            },
+                            "websiteUri": "https://www.federalesfulton.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Federales Tacos & Tequila - Fulton Market, Chicago",
+                            "weekdayDescriptions": [
+                                "Monday: 4:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Tuesday: 4:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Wednesday: 4:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Thursday: 4:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Friday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Saturday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fAM",
+                                "Sunday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJc4CaDdosDogRD-B2RcMW5yE/photos/AXQCQNRkc5R9oUf31ClHp6FjcjOqBs0XyzUlY8gC2qNbbfLc-6yiuOw-QllxpOAGNBO4LAgMlTF5X3kvUsWk7XKDz5lhSbgtgI5jIw1FDZPGdkRJ3YqS1dpsglPHpfOI796WisIXxfLmp_1vuA5SERUx1tiJ_5f_EmBBkfd38ArbOgjeMIkf4iRUnjIK-BdQBE6Tm3rVvVf12UfauQYKQ6lk0D_gOfAtPTTbZGzdd9nSQ2AUVWZRwevgXu8xTWprZB90Nx_RioI7jKcOYYzEcLkYrJ2u-wKGMtb1dChZSDnZdZvQFQ"
+                        }
+                    },
+                    {
+                        "Au Cheval": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.6,
+                            "address": "800 W Randolph St, Chicago, IL 60607, USA",
+                            "location": {
+                                "latitude": 41.8846303,
+                                "longitude": -87.64758719999999
+                            },
+                            "websiteUri": "https://www.auchevaldiner.com/chicago/home",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Au Cheval",
+                            "weekdayDescriptions": [
+                                "Monday: 10:00\u202fAM\u2009\u2013\u200911:15\u202fPM",
+                                "Tuesday: 10:00\u202fAM\u2009\u2013\u200911:15\u202fPM",
+                                "Wednesday: 10:00\u202fAM\u2009\u2013\u200911:15\u202fPM",
+                                "Thursday: 10:00\u202fAM\u2009\u2013\u200911:15\u202fPM",
+                                "Friday: 10:00\u202fAM\u2009\u2013\u200911:15\u202fPM",
+                                "Saturday: 10:00\u202fAM\u2009\u2013\u200911:15\u202fPM",
+                                "Sunday: 10:00\u202fAM\u2009\u2013\u200910:15\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJ78NyRsUsDogR6AqyYoPrts4/photos/AXQCQNTlitod1JkhNaI8b52QC859QVjzRa_qsQnpvLloZW43IQpbsxVWkuNK_edrfSFZA_X-CdQWn1Whr4NNyVohY6mNctNy_EZuHZFB8wv5NZ3Ai20EwNWPhbdqWS-XZohTFa-oU7Qr9ELSiZHvLUufWCpPPzGM4ks6TqukI_1qkrzsUFdE3r-2_LDZXjMKId1qRcxvyesw_LHFh1eOrekQO73tk8WGxep3Uif-oMJ1C94Bg9IG0LLZhnYyMbuMdfbRG3Ff2qnK27gNyrdTfXq9xsK61TR6AzKew02RLW7RWuGpxg"
+                        }
+                    }
+                ],
+                "attractions": []
+            }
+        },
+        {
+            "Fulton": {
+                "location": {
+                    "latitude": "41.8868",
+                    "longitude": "-87.6564"
+                },
+                "restaurants": [],
+                "attractions": []
+            }
+        },
+        {
+            "West Town": {
+                "location": {
+                    "latitude": "41.8917",
+                    "longitude": "-87.6793"
+                },
+                "restaurants": [],
+                "attractions": []
+            }
+        },
+        {
+            "Uptown": {
+                "location": {
+                    "latitude": "41.9655",
+                    "longitude": "-87.657"
+                },
+                "restaurants": [
+                    {
+                        "Chicago Magic Lounge": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "bar",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.8,
+                            "address": "5050 N Clark St, Chicago, IL 60640, USA",
+                            "location": {
+                                "latitude": 41.973926999999996,
+                                "longitude": -87.66834999999999
+                            },
+                            "websiteUri": "http://www.chicagomagiclounge.com/",
+                            "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+                            "displayName": "Chicago Magic Lounge",
+                            "weekdayDescriptions": [
+                                "Monday: 5:00\u2009\u2013\u200911:00\u202fPM",
+                                "Tuesday: 5:00\u2009\u2013\u200911:00\u202fPM",
+                                "Wednesday: 5:00\u2009\u2013\u200911:00\u202fPM",
+                                "Thursday: 5:00\u202fPM\u2009\u2013\u200912:00\u202fAM",
+                                "Friday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Saturday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Sunday: 5:00\u2009\u2013\u200911:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJp_A2KC3SD4gRjdGBo0oWUlY/photos/AXQCQNTkG6arp0EQ27Wmpi42CHBT45Qxp97gV6j9oV0uxmRGf-zdJ_eNjcUo2CUdMul1o0hBN589lSkJP-wyQBsFRNc82Zc8Zoxo5VRsGq5C9PhInmPIjoQYzh17gXhb4qTfmfwDDCTuBDaYzG3goTyLvVX3Qn38tZGJ5vAXk-6R2a4UD7gs4Bfx9KSqmClZpH2dXW1Qz34zyjrKOge2uEkU1OsteXZJxUqI3JQp5ZJXirtkHZ2a5ydFrpGzgO8essFQEuoHkhXc4nKFxFuacySm_smHuG1BCBS2bJb0vglwLaWB4Q"
+                        }
+                    },
+                    {
+                        "Green Mill": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "night_club",
+                                "bar",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.4,
+                            "address": "4802 N Broadway, Chicago, IL 60640, USA",
+                            "location": {
+                                "latitude": 41.9692028,
+                                "longitude": -87.6599222
+                            },
+                            "websiteUri": "http://www.greenmilljazz.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "The Green Mill",
+                            "weekdayDescriptions": [
+                                "Monday: 4:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+                                "Tuesday: 4:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+                                "Wednesday: 4:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+                                "Thursday: 4:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+                                "Friday: 4:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+                                "Saturday: 2:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+                                "Sunday: 4:00\u202fPM\u2009\u2013\u20091:00\u202fAM"
+                            ],
+                            "photo_name": "places/ChIJ5ywykizSD4gRX8IVtWSf3OI/photos/AXQCQNT-82gCbJKvTO12Cppg09JmWQnKr5qmm1Z4J9yyZCjaHIgZ7hZEcioehOD0l0D46aO1XkdQU3k22r2yYcdrfzbEVHbfcyalp-B0w25yocGuDEik4BrW2fFTy9-aSkJ5gcPrqnZ3bPTD4MWPO_h_I1couScfcprdnVlRzpkmSbg3OgOf6703pxqhoBLLau9jPbM4Q7gLOPzObfy5CwyM-gbxlxNJB7_Wlo2uzrNdUVkT8Q721b8xI74efjxijE92Mgid6SP2EtZL6SDq_4RPw9YvCcDL-GmQ1mnw9n09eIstHLg6txfJ1oj8vJs88kjDUEEXwyKkIUZjQTDhmIMDwreIq5uQYzATKMFzA-2LR21YBrv2Sh2R5zOO2QsIc-plP8INVMIDecJg7cqmVjkSY8WqbBTaHdaP3cggTRoLTlkeAg"
+                        }
+                    },
+                    {
+                        "First Sip Cafe": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "coffee_shop",
+                                "cafe",
+                                "food_store",
+                                "store",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.7,
+                            "address": "1057 W Argyle St, Chicago, IL 60640, USA",
+                            "location": {
+                                "latitude": 41.973167,
+                                "longitude": -87.6572066
+                            },
+                            "websiteUri": "",
+                            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+                            "displayName": "First Sip Cafe",
+                            "weekdayDescriptions": [
+                                "Monday: 9:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+                                "Tuesday: 9:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+                                "Wednesday: 9:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+                                "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+                                "Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+                                "Saturday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+                                "Sunday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJ33YxJNXTD4gRWe6jz5NdNpo/photos/AXQCQNQpOGzo9bbIaZzHDjSFQ3go3eBtC3Dd1aagyE9SAj0HPDIvo59H2uh6K_qSEt_pLFyrdpRK-NF547TmUQDyTgFZpiEhNdc8gW3oTM4HfmnqxlYYK-eM3odfaR8NUKmcx59_oazBeImj6U1tmL0OfE3vr6K2bpeWLFP-irIFhMemZc751k32BjPp7-2BUqHj1Uy87BzZoKxL8IS9J7HO_alCKoGAh08J_dhbFY3Bg3xe6Zc3mSX19eRZ89K0Yf_fRiJbzYMSeWDpLwYX_G4NgvQcIu_0e0dAcN-SpdF8HosbvgFd_i3L8LGAcjxxJfWtMs3pqiNaaLfNiYlw4DQKRETbEq8Xy167aQag9fbr7pFACjAge0HQ6U0L2VMIPBorpIq_hogPtFYBYXz0_H_PALxxXs3psloqGXeYTbWHIz2pdXu4"
+                        }
+                    },
+                    {
+                        "Immm Thai": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "thai_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.6,
+                            "address": "4949 N Broadway, Chicago, IL 60640, USA",
+                            "location": {
+                                "latitude": 41.9730214,
+                                "longitude": -87.65950579999999
+                            },
+                            "websiteUri": "https://immmchicago.com/",
+                            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+                            "displayName": "Immm Rice & Beyond",
+                            "weekdayDescriptions": [
+                                "Monday: 11:30\u202fAM\u2009\u2013\u20099:30\u202fPM",
+                                "Tuesday: Closed",
+                                "Wednesday: 11:30\u202fAM\u2009\u2013\u20099:30\u202fPM",
+                                "Thursday: 11:30\u202fAM\u2009\u2013\u20099:30\u202fPM",
+                                "Friday: 11:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Saturday: 11:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Sunday: 11:30\u202fAM\u2009\u2013\u20099:30\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJ_7O04CrSD4gRgis_XQgq-ew/photos/AXQCQNTRIYEjnW2_w1sciJRbyaOf2zi7FvwI8HHEV0SYTveiC2rIH5PFDW3XIUyjMVchXZo0-hwBMyvUC4IS2TJpnGP8HgWudA_inoFH22zdiWDitchUGY8IzFmxKENnHGm2_sZxdviLemkmDXLdENNddS2h4yghhkzNywBJSXM2BYaUqDII_6SvBpDfnSYphsj166c6rlnt8LjU8HT3ZAlcRDDEcxP-EqhEVjQv6z33nyZ933IH4RbBXJsQU9genVmPJTeMuNs9ts2zqVOkGbZISzuIldqVYiR9hIq0p8uXHEKK6jZ99hyvJrB5t5NGThzkhv-FNxX5e3YtXFmkZ6w1vNkg5WTXhCWacmRiv9DiZnHbjDCab1f0rMhauEkfKi24W5GlmOpVgFUj4IBPF_edQ1idrtuMSyQOBZpJmILg3YbujvZd"
+                        }
+                    },
+                    {
+                        "Sun Wah BBQ": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "chinese_restaurant",
+                                "barbecue_restaurant",
+                                "bar",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.3,
+                            "address": "5039 N Broadway, Chicago, IL 60640, USA",
+                            "location": {
+                                "latitude": 41.9739608,
+                                "longitude": -87.6595962
+                            },
+                            "websiteUri": "http://www.sunwahbbq.com/",
+                            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+                            "displayName": "Sun Wah BBQ",
+                            "weekdayDescriptions": [
+                                "Monday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM, 2:45\u2009\u2013\u20099:00\u202fPM",
+                                "Tuesday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM, 2:45\u2009\u2013\u20099:00\u202fPM",
+                                "Wednesday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM, 2:45\u2009\u2013\u20099:00\u202fPM",
+                                "Thursday: Closed",
+                                "Friday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM, 2:45\u2009\u2013\u20099:00\u202fPM",
+                                "Saturday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM, 2:45\u2009\u2013\u20099:00\u202fPM",
+                                "Sunday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM, 2:45\u2009\u2013\u20099:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJs_Lc7CrSD4gRHr3hH5YPMAA/photos/AXQCQNQjRpTGumYuke3_bknj7Irbb5hoeeRZeBGCszFee1EeZV12ZdWuBn6JVl3mXd_EJKMx_-ZnJ9Dv0d6fKYFiUdAzA1-rDhrjifSPBAnnCheFkqWtRgMmqbyJCBAa81wun1W2ZVLNsaodiWS04CHWKFkMEsTvvXnUMHPhGTDZ-9ufQhXmtjvOC_un2ZqPVRSBiqOAJm-5hWTYNN1tpExXbQtS54IlDwsyDB_QH8b13-9uSWgCB4Nw1i2ZXNVBmhxJUR625vTR_UMX-feGlDm8RWYnmiX5NspjBOHMdCvEigutDl-C7bmchJ2Cu2SRFeyOfGbZCNxDcB_tijfZK14tUylVoLgbXombuHhKVj2Se2O3dTqJ4SE39_cgbevcfIAZuOk2xaskKEW14e1hVPf5z0u6j8UQg_jsdjqC2y36KS0eJY4"
+                        }
+                    },
+                    {
+                        "Honeymoon Cafe": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "chinese_restaurant",
+                                "asian_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.3,
+                            "address": "1138 W Argyle St, Chicago, IL 60640, USA",
+                            "location": {
+                                "latitude": 41.973345200000004,
+                                "longitude": -87.65939639999999
+                            },
+                            "websiteUri": "http://honeymooncafeil.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Honeymoon Cafe",
+                            "weekdayDescriptions": [
+                                "Monday: 12:00\u2009\u2013\u20099:00\u202fPM",
+                                "Tuesday: Closed",
+                                "Wednesday: 12:00\u2009\u2013\u20099:00\u202fPM",
+                                "Thursday: 12:00\u2009\u2013\u20099:00\u202fPM",
+                                "Friday: 12:00\u2009\u2013\u20099:00\u202fPM",
+                                "Saturday: 12:00\u2009\u2013\u20099:00\u202fPM",
+                                "Sunday: 12:00\u2009\u2013\u20099:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJca5q3SrSD4gRwqEwkOJba-g/photos/AXQCQNQYmtNqo5hCOXWwTdoKL7xI93n6S6b2jzwLF-dNaPRzxncPuy-SBYXb5HpRiebL--IhyLoCGjXrGJV8FQa4MxbUy0LCz4cPn0WI3PdfDwMBXVnGWBdGYPyIMgRYrmGorTcqa5CUEr9gb0rnfSSMx0bPXx14pMQqp_fSU8SjF6ow69_xEuFDBRFQsdAboNY7HSZk65fTVXqpW7dgcaTUBEX0UOUfSDDVsWQFrsJu0SMem0D9K07xK1dDXPMHk3I1Eu6mVANX0in9e1IUGwwcEfhx6_oyT5mDwxlrcIhMnFCt7JMhM6J3SGPTlIctE7D9LmRQXCD_OWeAY5MYfDg2So0QVBFCT-mzuUbAoc9w5CjejHMAUcJoCR-_gkQHEYZMmHQYB5Hnr257WwMXsE0DfZ1UwcSI-bUgmfsR0SendDL7fe0I"
+                        }
+                    },
+                    {
+                        "Chiu Quon": {
+                            "queried_by_places": true,
+                            "location": {
+                                "latitude": 41.973117099999996,
+                                "longitude": -87.6588621
+                            },
+                            "tags": [
+                                "bakery",
+                                "food_store",
+                                "store",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.5,
+                            "websiteUri": "http://cqbakery.com/",
+                            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+                            "displayName": "Chiu Quon Bakery \u8d85\u7fa4\u8336\u9910\u5ef3",
+                            "address": "1127 W Argyle St, Chicago, IL 60640, USA",
+                            "weekdayDescriptions": [
+                                "Monday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+                                "Tuesday: Closed",
+                                "Wednesday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+                                "Thursday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+                                "Friday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+                                "Saturday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+                                "Sunday: 8:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJ03RW2irSD4gRQnzX7vDImbw/photos/AXQCQNSOGAyvCyiJDj8wWbsbDFhs7qHfEB2SIcdDaH3ubqZ-zDgWfDsOFtD0XtIHXrBa0CyxUDBmsucChFavQYybJkydIPV-aBElYRkgev21G_lD8VCCkDMRWaFWlvXF70fQi6TE1Kw5vwvM-FFnjGSa6_z5vXUCzyriz33Aan0hcMBSntwR1ICfmBc-0_URK1xX48lT3KfUOaa7WFsrEYcQlExbmmuPdHMnkPd8taPIENMebICay_aGw2NqJt2AlXrj2D54evB-DnyYk1R5vV_YP3aOwd0cGWViWxaAYTl6Ldq_m7lJJ5-fHL79fChIv0WSeYxzdPF_GXymlSbitjl6l_ALEwcSfBJlONS9vpfP5ZYB3JMfA4BgRxDVfEqLotX1f0_vRhIhGg2i0kQqn-EbnUv9CJhNW9smxZY0XV8-23ebJw"
+                        }
+                    },
+                    {
+                        "Pho 888": {
+                            "queried_by_places": true,
+                            "location": {
+                                "latitude": 41.97315,
+                                "longitude": -87.6592328
+                            },
+                            "tags": [
+                                "vietnamese_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.2,
+                            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+                            "displayName": "Pho 888",
+                            "address": "1137 W Argyle St, Chicago, IL 60640, USA",
+                            "weekdayDescriptions": [
+                                "Monday: 9:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+                                "Tuesday: 9:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Wednesday: 9:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Thursday: 9:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Friday: 9:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Saturday: 9:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Sunday: 9:00\u202fAM\u2009\u2013\u20099:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJ36eo3SrSD4gRNGbMDYT-otM/photos/AXQCQNTOPlf5Zi4PusfN8MhM1z4F_bqjoln8hVXF-4fDzUKKUjFxbCOzG0MaYxQRmKHYH5glEQsBue324TYrDXvwuOAcSBWM9wHsZphcaDm7PjAkjsRboOyVQZ20htci1EsV8_EnaHIfZ2F0IAYYtVyI9BdlrrAsKD47qMIbwK0aWpr9QTQ-s-rGuKaXE6AjqjvcKjVDYrJ3GY1WU2_kJxYF7p3w-nXfXAr1CxIBnpp9t8BNQFdyn6qfrzw8eV_mVYXAo_HfkQ0YBhyYxmIoNKV0ptEZw7kxaeJSnfaHsfys610eDAd9OlflHUCzdN5oXQalpRw94MVVEnBdZC5dSDKO7cj4slu_EV82yQnmzfIP32641_FC4qRj8GvNRi4LKjmo-Ppve06Xxwq6-JS4fDSMUfiwoyID_MF_WEzvcF2ZraaYZ_ij"
+                        }
+                    },
+                    {
+                        "YooYee": {
+                            "queried_by_places": true,
+                            "location": {
+                                "latitude": 41.972122,
+                                "longitude": -87.65950839999999
+                            },
+                            "tags": [
+                                "chinese_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.8,
+                            "websiteUri": "http://www.yooyeechicago.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "YooYee \u559c\u53c8",
+                            "address": "4925 N Broadway Unit E, Chicago, IL 60640, USA",
+                            "weekdayDescriptions": [
+                                "Monday: 11:30\u202fAM\u2009\u2013\u20099:30\u202fPM",
+                                "Tuesday: 11:30\u202fAM\u2009\u2013\u20099:30\u202fPM",
+                                "Wednesday: 11:30\u202fAM\u2009\u2013\u20099:30\u202fPM",
+                                "Thursday: 11:30\u202fAM\u2009\u2013\u20099:30\u202fPM",
+                                "Friday: 11:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Saturday: 11:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Sunday: 11:30\u202fAM\u2009\u2013\u20099:30\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJR5sRlPHTD4gR8_EW-DfFjkU/photos/AXQCQNRBqG_8K1GrYXmcM6D5Q0s73UMe2-PXV9I02gZ6O89SKWKQM_1aCv3lRxFvj3n3QKGTJwOUMjHzX37ihB08LYDlDo8RpmdCVBxERLL2yv07ogtFARF3dVHh9kMi14lbAHyLG8SEKWpcufOKg6sqLC9yl7XldBBXU5MASAvWatx07A_UZVGk0lceBkT5C0oKPkgFSIker9KdfcgDPzdn6BJI-UHTd7dX9pyCHictNX5SxXNT7N43NudcFHSyA3CZVSsy3o4XczCcQNmfRuNFm1D5QLbkQmJcF-KnHDb4WWkqSFerX47INnmOJUKEFrte_IfxN8SO1HkhGtyQyLY7M4_FxBAedE9Eo8I9yUQB4Ylv9lwGuNQIccc6RBxiPyUy9JMB1hihJq7QUTA56vo1zqPkzFM47skC0ngQ9jZ6TLqCcHxHft7oS-HkvGt0BQ"
+                        }
+                    },
+                    {
+                        "Fat Milk": {
+                            "queried_by_places": true,
+                            "location": {
+                                "latitude": 41.9733339,
+                                "longitude": -87.66011569999999
+                            },
+                            "tags": [
+                                "coffee_shop",
+                                "cafe",
+                                "food_store",
+                                "food",
+                                "point_of_interest",
+                                "store",
+                                "establishment"
+                            ],
+                            "rating": 4.4,
+                            "websiteUri": "http://fatmiilk.com/",
+                            "displayName": "FAT MIILK COFFEE",
+                            "address": "5018 N Broadway, Chicago, IL 60640, USA",
+                            "weekdayDescriptions": [
+                                "Monday: 8:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+                                "Tuesday: 8:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+                                "Wednesday: 8:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+                                "Thursday: 8:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+                                "Friday: 8:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+                                "Saturday: 8:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+                                "Sunday: 8:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJxWVpUJDTD4gROzyI1OwPgRk/photos/AXQCQNS8CMkAop_3nX9W1nlE9RkdtDbicRnoB1I1ptGI-SgMaHkjUMZvOzonx8YDnWQooKxFGDfEJuwKhdHX_eLbz_qpgCy9WT1HW-UiZKWhCRI3rzAmXwkTjxaT0GKivvskVk3HdvmsACOO4Pv_jvnt4337Z7Xwh7XqCdLQ9EGiWvrwS4wsJxGR5l4FoB-sDHV7I1AQFljC0VgMgoFmWACTi6BigZIoqoMdfb9IXJGhut0PvHOcslQeAJ84jadx8_w9ObCmWjgROHK374_L-u2TK6ANDqHKLA6_tXKtxSyD5iY_Jm9BDArw7dj42DhsU9AXd9X-QxsAWEPBvszFSeIillxpKxmEn1n_z-8cDr-AcWHCudJ7oPCwAlKZU_UKMKmMof1exjakmqSZZt2YbDtJl-HBN1uodcl9byYalN1-jXSDSg"
+                        }
+                    },
+                    {
+                        "La Patisseria P": {
+                            "queried_by_places": true,
+                            "location": {
+                                "latitude": 41.973413199999996,
+                                "longitude": -87.65691799999999
+                            },
+                            "tags": [
+                                "dessert_shop",
+                                "bakery",
+                                "confectionery",
+                                "food_store",
+                                "store",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.7,
+                            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+                            "displayName": "La P\u00e2tisserie P",
+                            "address": "1050-52 W Argyle St, Chicago, IL 60640, USA",
+                            "weekdayDescriptions": [
+                                "Monday: Closed",
+                                "Tuesday: Closed",
+                                "Wednesday: 8:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Thursday: 8:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Friday: 8:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Saturday: 8:30\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Sunday: 8:30\u202fAM\u2009\u2013\u20095:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJG4E0PdXTD4gR34rfifFvKrw/photos/AXQCQNRXirro6w_8EKMknDvk7uGZsChnSdyNPgmkQKzT7k_Jojpt-C0y8GEgn3Taa9huq0eq-UiVt_f_8UFF08JT_kFj_-GT7T5YaOzf4MmPXJZkBSVVMGY9JKFy32Gs_fqtdpFlDRp32FbYTs81TULM0vuj2qiNsU2RbsJN55b7ZtlAa_je1VKjYRvnE-MJNYbKUIEHXdh7JAJq_uaMXo03giKbmm1y8Gl0G1UHJg74BKG2eDfRofTa9RsDX18uRSSi7BlookxPQ0KAc0yzXNFuAtXmOyo0xcHkNW4mBgf-E5x3WJ2Ov3xQ4Zmg0JCMUWauyXSm8EdQGeZrnqHuRj8dQtzIEHp8JuDPX09_HQj8HE0ZAycPOvjxSl77WpimpInWC-pfETLfdW0P2zf8boksAU8PljhTVKqcxlU-sbK09jtBBnaP"
+                        }
+                    },
+                    {
+                        "Lucys": {
+                            "queried_by_places": true,
+                            "location": {
+                                "latitude": 41.965237599999995,
+                                "longitude": -87.6575917
+                            },
+                            "tags": [
+                                "hamburger_restaurant",
+                                "meal_takeaway",
+                                "bar",
+                                "american_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.3,
+                            "websiteUri": "https://lucyschicago.com/",
+                            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+                            "displayName": "Lucy's Fried Chicken & Smashburgers",
+                            "address": "4570 N Broadway Ave, Chicago, IL 60640, USA",
+                            "weekdayDescriptions": [
+                                "Monday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Tuesday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Wednesday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Thursday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Friday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Saturday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Sunday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJz1xHpAHTD4gRu6619PDTCZ8/photos/AXQCQNSiO4kGuKsjQr4RViaxOIZbZXRH0KXw_ZEGmBDcDw607jnzSGxRS1neyXexiYaAVSzDGDHl8YQMCOEAF6fYnaSGW7qEy-ahShl4JYtunJBSnK6DtmbZ3dnmQHVvizlePuzKPM5tZbK5Iqw15Ydj0KGOYWeq5hSMM2H2PCOZxqOaUirmOH1fvZ5y4etO01PmBk0H1CwHTcG1IgFYBDAq-_BhnKZQjlo71Ejtuy9BfLGbwN3UiPJTYr-blNRzicAvlrbg2Rk7_8QP-pluTUtMi_iWy99V-4CILPRTvY3NW4A-Znm72o-Pt8WpAnFmIN6hGS9O4O0D44bi_j8ORKRGQNrObRFMsUbmes2cmDwBXksNN_JBYiOKtIExbi-5QtObFXU4byDAjELlsKc2-OlYPPk2BqsV_Ge0dieDyS0iP7VM_ZHu"
+                        }
+                    }
+                ],
+                "attractions": [
+                    {
+                        "Riviera Theatre": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "concert_hall",
+                                "auditorium",
+                                "performing_arts_theater",
+                                "event_venue",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.2,
+                            "address": "4746 N Racine Ave, Chicago, IL 60640, USA",
+                            "location": {
+                                "latitude": 41.9685825,
+                                "longitude": -87.6598602
+                            },
+                            "websiteUri": "https://www.jamusa.com/riviera-theatre/",
+                            "priceLevel": "",
+                            "displayName": "The Riviera Theatre",
+                            "weekdayDescriptions": [],
+                            "photo_name": "places/ChIJs7gF7izSD4gRcZVts1O394c/photos/AXQCQNRZPxf6F630dU1pZkUlWjyzEoYEVLM8Wc1o1VX3gk-Fqip0gkBq25PqinGrYxcBTVkVREygYyuLLx5tYrWCzvkTq4n-xDUS6vQ3rrumGdjvSZ2D4R0DhyNRE4xDBpSs73M4dl4Jt_sz-xqnLVr2NW4nUGs-HjwXy7MHwI3upjHXHZ73ZGB6IbARmyemisB94XFsVLHuOj2k1Waz3nlOKybkSfAkZ8_joulrGCqvYAe5vG6U5_hULb-toJtSifyixTA1UivtLxcs8i5iwH-dnxMMAUr5F-h5wl0KeKsKi7A69zlq2mTWGa9awl4pOZN5KkLPE73FVpSKPEet7V-y9NDmg-MylDsT6Pnd1rif3guyyqMr0_vAoeAWeORNNvkXpgnDTkJxtLg-GDlME8lXZARjj8143e_vXLEb2Hj3N8o"
+                        }
+                    },
+                    {
+                        "Aragon Ballroom": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "concert_hall",
+                                "auditorium",
+                                "event_venue",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.2,
+                            "address": "1106 W Lawrence Ave, Chicago, IL 60640, USA",
+                            "location": {
+                                "latitude": 41.969149,
+                                "longitude": -87.6580233
+                            },
+                            "websiteUri": "https://www.bylinebankaragonballroom.com/?utm_source=GMBlisting&utm_medium=organic",
+                            "priceLevel": "",
+                            "displayName": "Byline Bank Aragon Ballroom",
+                            "weekdayDescriptions": [],
+                            "photo_name": "places/ChIJ6Y3hStPTD4gR_LWOu56fyDA/photos/AXQCQNR8JUt2iSY9xHFdcJvJjtfkSY1sJaTcpjy4-9UMKY3UtgDgr_iM65ZU1bv6fBOKURAnsu1Uf9k797TDK3vNMdFi7DxInYoSAnXQcsB-g6tLNe7W2mfkPFbUFtaXsZCoEW8JFsnkrTYnoQiCsyklqdni_zr9UhP0CBSF3wNJjFE5QGH2DCW_2KIOxBAxhcyASt20FfBJ7OKa00TVdey4TZ55q6x2VVHoeK5qISt35-GyIMg4Af7J5n4pae9GRlF_MD9G6R09MCE14ofYdwYX34WA1zs21BG4SpTOoGf4jJVVAivHVlD0AdC9jVbWRiFPtviHPxpozoa5sKHgoiiY_aLee9Za9TW6Shgw8k1h07zVbJNBA3muwxELOMN9mnPaYAESAKld4k_O9ChwuzU2GT9PR4wUBpQ6SoAq6Gd-IvtLQLI"
+                        }
+                    },
+                    {
+                        "Montrose Dog Beach": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "beach",
+                                "natural_feature",
+                                "establishment"
+                            ],
+                            "rating": 4.8,
+                            "address": "Montrose Dog Beach, Illinois, USA",
+                            "location": {
+                                "latitude": 41.9691277,
+                                "longitude": -87.64285129999999
+                            },
+                            "websiteUri": "http://www.mondog.org/",
+                            "priceLevel": "",
+                            "displayName": "Montrose Dog Beach",
+                            "weekdayDescriptions": [],
+                            "photo_name": "places/ChIJBYMDDtzTD4gR13yTP0AgX5o/photos/AXQCQNR9YfA9gY-VQ1-wNrHfJhcsd-ydhjtxEL-PW_EF9ryuJENiD_xwqp1DmWYSLXxyj6xChLWFjrY_VeLR5V6I3z2ojmInZEaHJcv2D8G1v3Vgf3Kk0wwGubQP0ygnTtXxL8fPsv3d1QskMkW0BvtMqdKeOgi_jM5SFvsyesThXAbgNAdNYoxXICqwoT-j2arZWrRTy6scfVhZcFqCvc7SzvfFJav_iymgYbx1B6RYxY-yNjPGFRQ9VrQmEl6AkkjsIDKFUC62Z4yCZwFfw6ktsmvLS8A-B8DRIHYCKrA0E0bDQdm5d1uCxXqfQYSQSFPqNWcXHv5I7o6VYbuZg4AVHFSZ1LYmP1B3G7OpzVqamdKHNKKyBjFN3ewrZlqbl5k6iTDd0qsLPhUYJKIoKGGnCAcANuLysJKWaxfjAn2wtYHaq9xy"
+                        }
+                    },
+                    {
+                        "Uptown Lounge": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "night_club",
+                                "karaoke",
+                                "event_venue",
+                                "bar",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.2,
+                            "address": "1136 W Lawrence Ave, Chicago, IL 60640, USA",
+                            "location": {
+                                "latitude": 41.969179,
+                                "longitude": -87.659179
+                            },
+                            "websiteUri": "http://www.uptownlounge.net/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Uptown Lounge",
+                            "weekdayDescriptions": [
+                                "Monday: 4:00\u202fPM\u2009\u2013\u20094:00\u202fAM",
+                                "Tuesday: 4:00\u202fPM\u2009\u2013\u20094:00\u202fAM",
+                                "Wednesday: 4:00\u202fPM\u2009\u2013\u20094:00\u202fAM",
+                                "Thursday: 4:00\u202fPM\u2009\u2013\u20094:00\u202fAM",
+                                "Friday: 4:00\u202fPM\u2009\u2013\u20094:00\u202fAM",
+                                "Saturday: 4:00\u202fPM\u2009\u2013\u20095:00\u202fAM",
+                                "Sunday: 4:00\u202fPM\u2009\u2013\u20094:00\u202fAM"
+                            ],
+                            "photo_name": "places/ChIJPdRpuCzSD4gR59UHznFVal8/photos/AXQCQNQzvpS05DpNZPY2TOYujX9VrNo3HpxuzwkwSVp6lhr9A-u0j6Y_W91CRzh6VGEsgeEH6-L3cWPb3gMl-euRh7MKwjqdgpKBAX3MCfEArzbDidISYuPrUusfYkSvfETBCQkcTAzUSpGh31eNlS7yyKie7-xDsUUNDJdD_ggYDgqavI0XJHzR2Ak4U_9diVBytUmK1nKxxBl7VNXCgptnXpHloLsyjP4KlQJV0e27wBuK7BDxZ6ad-OsCjQTVUj6fuIBc9eg8zVAYXfLcjE3TZi-x0Ub9BwzDkQrATtVquVGaYA"
+                        }
+                    },
+                    {
+                        "Montrose Beach Volleyball": {
+                            "queried_by_places": true,
+                            "location": {
+                                "latitude": 41.966744899999995,
+                                "longitude": -87.63859339999999
+                            },
+                            "tags": [
+                                "tourist_attraction",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.6,
+                            "websiteUri": "http://www.chicagoparkdistrict.com/parks/montrose-beach/?__hstc=112078491...",
+                            "displayName": "Montrose Beach",
+                            "address": "4400 N Lake Shore Dr, Chicago, IL 60640, USA",
+                            "weekdayDescriptions": [
+                                "Monday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Tuesday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Wednesday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Thursday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Friday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Saturday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Sunday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJcT8mgujTD4gRDnqXprJn5Mo/photos/AXQCQNScnyhOW2OEvIV5zccmpXCXY2nD1t1HwHHsMsm9aL0YRRZ0CGCmUBpIi_OCzS9LeF1SqG9HiObE3toy16aRlzCF1SWu9XZI_q75maKhzszoUrsug1B9rUPX1IROfh-MnrXwjM81Te8MoUp3OquEMAkVNamPAnEOBMM3WJzNh6CnN9VPjSs_7ciZfb58lhnPQQ6wnbokQA9w8kziiUwPjHuxN42ITg5Gu14e3rtE9-a3anQcRMBHeYB2znm2LQVGhdJ-CtPrw7QSMSP04wODFVoaaoD_EBDRrEEL7-2VWk-CfWsNOGkAwoBrmYv9lxOQj2dy7ybCmCT0Zy2wVjCO7N-NiAHxIxugsKgmZV9uobLJyDHCDuyUBvq8u_hERT0CP4y3R2oGJO09HOloyDrBAXGAtgKm1i0w0VajoGr1Dc12vpok"
+                        }
+                    },
+                    {
+                        "First Ascent": {
+                            "queried_by_places": true,
+                            "location": {
+                                "latitude": 41.9677862,
+                                "longitude": -87.6592227
+                            },
+                            "tags": [
+                                "yoga_studio",
+                                "fitness_center",
+                                "gym",
+                                "sports_complex",
+                                "sports_activity_location",
+                                "point_of_interest",
+                                "health",
+                                "establishment"
+                            ],
+                            "rating": 4.9,
+                            "websiteUri": "https://faclimbing.com/chicago",
+                            "displayName": "First Ascent Uptown",
+                            "address": "4718 N Broadway, Chicago, IL 60640, USA",
+                            "weekdayDescriptions": [
+                                "Monday: 10:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+                                "Tuesday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Wednesday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Thursday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Friday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Saturday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Sunday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJwXQoIC3SD4gR1_8-zWLwpCM/photos/AXQCQNSXX3mlpFsORE3KGFoucpc7O7-zBp7zCqnACGSn1-4L53c9etBV5VjmJZGTcKPkqANUQI45iISRHXn1hnv9PBefCD2hInECnqOzk8JSqffiy0XfBhGQkQI2UPtFfBiDuiJBLieqwLytcOGbbZ8-NIP9j0nqTeQSIPQeLq-5eLsrimdy4x9xXHxKVw8UifN8zcRXjuiHL-nJeWex0HQmEgH-fEGA9tJBJNU47D9ghhfUugJpgoCswWBNLA5w1ufcYb5Um73eqhho5IwCHoj1qpDeMrL591oRGlFQ0N3MCRlN4VO3SeQ4qB43z5JJ5uvX3TqS96UOWjdugNjwL-624tbxeXZwIlPzKLlKr-gGmwnMI4xkET9Nxp9zqnu6XF_atmfUZMhQ8Kql-xwnpa9ro115luBxJA9Pb1Yfe0PaU42qLWZ9"
+                        }
+                    },
+                    {
+                        "Bird Sanctuary": {
+                            "queried_by_places": true,
+                            "location": {
+                                "latitude": 41.9631998,
+                                "longitude": -87.6331366
+                            },
+                            "tags": [
+                                "tourist_attraction",
+                                "park",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.8,
+                            "websiteUri": "https://www.chicagoparkdistrict.com/parks-facilities/lincoln-park-montrose-point-bird-sanctuary",
+                            "displayName": "Montrose Point Bird Sanctuary",
+                            "address": "Chicago, IL 60640, USA",
+                            "weekdayDescriptions": [
+                                "Monday: 6:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Tuesday: 6:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Wednesday: 6:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Thursday: 6:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Friday: 6:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Saturday: 6:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Sunday: 6:00\u202fAM\u2009\u2013\u20098:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJkZBRy-jTD4gRwjYnmZTYSiI/photos/AXQCQNS5AednNzwnYqobWtLJpiZE2aymWblS_ZxGiDmExlx3cUeFHeP4FPIQy7yn9ZjfsZ30J9KfM7MAKh-22QZpN-YCayN3kmbLadppGEhng0wp9rsZ6p1EW1q_KhQIYWkWRB68_V7MO195iB8ijpRc7ddqRFnbxXnvY9hKzeDZb6c03RR0NHkVP4BY_oufBbHYG1J9ymT1u4etxV0Vvzp5ixVkNRUEC47djgzOi8tdncRnnB3kzb4dSk55ne7rsipgCc2o2QaeDIt6qwDP7AkA-gRu5rw9sSKXs3dCzPk2N9Hp8SFVM8E6OxlZtea0N83cHozohcqJU9FgduwItuOiHMkqXTF4M_yKRuHsXVItU3CyHeGBuuOnG4fOyP8OdmlSeDy8yybhYbdVhG8Zm6AysM_YvcdtnZrf101VkrSB9Xc"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Andersonville": {
+                "location": {
+                    "latitude": "41.9795",
+                    "longitude": "-87.6691"
+                },
+                "restaurants": [],
+                "attractions": [
+                    {
+                        "2nd Street": {
+                            "queried_by_places": true,
+                            "location": {
+                                "latitude": 41.9770781,
+                                "longitude": -87.6685285
+                            },
+                            "tags": [
+                                "point_of_interest",
+                                "store",
+                                "establishment"
+                            ],
+                            "rating": 3.5,
+                            "websiteUri": "https://2ndstreetusa.com/",
+                            "displayName": "2nd STREET Andersonville",
+                            "address": "5228 N Clark St, Chicago, IL 60640, USA",
+                            "weekdayDescriptions": [
+                                "Monday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Tuesday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Wednesday: Closed",
+                                "Thursday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Friday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Saturday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Sunday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJA6IfLP_RD4gRZVfpNQjR6Js/photos/AXQCQNR_AD0qxfUzDprdnW0huq2lE2J-Xmg7RRbdtxwDR0gwqcQFMYcv1Th5VoK07YyKeNuQfiX1WERzBjdBuqtUbXAmXSRjil9omQj3wXTwU4j77i-pI1NejqBeh3yf-fAk83FffQF82JTVBob0M1J-eEPU6dA1wl2XTFLOzbfGrBc9DSGDhZBYlg_K8fPPz-0hgheGWw0b-mE4fot3m_1IDtD_43L0gHUZAMf840jVbPgKFJGJTRQI4YdV-oiiaV-nMG0OGLO_SQPqb0jSCXy9cgltbzcEJHMQOHJ3DTGB1xLv0Q"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Little Village": {
+                "location": {
+                    "latitude": "41.8447",
+                    "longitude": "-87.7051"
+                },
+                "restaurants": [
+                    {
+                        "Mi Tierra": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "mexican_restaurant",
+                                "seafood_restaurant",
+                                "bar",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 3.9,
+                            "address": "2528 S Kedzie Ave, Chicago, IL 60623, USA",
+                            "location": {
+                                "latitude": 41.845389,
+                                "longitude": -87.705438
+                            },
+                            "websiteUri": "https://www.mitierraenlavillita.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Mi Tierra En La Villita",
+                            "weekdayDescriptions": [
+                                "Monday: 7:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Tuesday: 7:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Wednesday: 7:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Thursday: 7:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Friday: 7:30\u202fAM\u2009\u2013\u20091:00\u202fAM",
+                                "Saturday: 7:30\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Sunday: 7:30\u202fAM\u2009\u2013\u200911:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJHeG9WXAyDogRi0B71-Fx2mQ/photos/AXQCQNRMHcH5xxvfemrk62OKGOMD48eLl-jLw6qo6F5hc4m36cg5g9ouLlfQtezGIAWI1L7TIOUKDjE32TH3uQu-K7dZX8HOCJUqzuyR714bH-zUL0Q2iAQI1JkZoY_XZ2AT8wZke-oi2VAsHDz7HW0vv7Q3UvqaVNk6LsVoIaCu1TeczG2Vvhdyz2cEpLUYAzgNqoRGVEtrgqngqtVgDS79xs7uBUh_XrOe5rtSnzxEu5dIzyz1u1iTcAYYd_l3AEAf6epRBo9gXRnIOcLda2NM6Da7G4ffQhxwHIJjFhNp4o4GHQ"
+                        }
+                    },
+                    {
+                        "Nuevo Leon Restaurant": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "mexican_restaurant",
+                                "breakfast_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.5,
+                            "address": "3657 W 26th St Ste 65, Chicago, IL 60623, USA",
+                            "location": {
+                                "latitude": 41.844166699999995,
+                                "longitude": -87.7169444
+                            },
+                            "websiteUri": "http://www.nuevoleonrestaurante.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Nuevo Leon Restaurant",
+                            "weekdayDescriptions": [
+                                "Monday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Tuesday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Wednesday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Thursday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Friday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Saturday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+                                "Sunday: 8:00\u202fAM\u2009\u2013\u20098:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJNzBi0GkyDogR5t4bL9r1HEY/photos/AXQCQNSYi5jyGrJm4zBvqn4XJTdY4wFcyZazDfjyD92UWUQp_t0r9mVaVlbw7a5tfFKmgti-kCiZ1lQuETOXFT6Q2ujTavMW1cQUZJT15Au6oAnAUbBMJOmJ7PrifaZ2DwW4_UQzNsszwI1yG1uesRwAdl1d_0EczhJnNYIVF1GjVpqihgwwH2u3xF0XV_qpuuCUxrPVEwDvdIPrZyAnB4Ep9TYwt3hcCAPk6f5fMwGabfmHfnWmKNJf3ZqEYf8kZFDR3-1e-SgENJWij2dTcwRpbWHr1jJyjFUU4g0494V0qeH4Z_JXqbFXtZaTtXApe-V3zVvlT6yNVJmb8qpdMN9fjln_MNQdDXfEUe77wJbKZLYuP46Bo-0ZoJcQXFslNfxEWQCizZTy9wavX9WXDXRPItbvnGaZ40BZyGthxXtRCmOjA7q5"
+                        }
+                    },
+                    {
+                        "Taqueria El Milagro": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "mexican_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.3,
+                            "address": "3050 W 26th St, Chicago, IL 60623, USA",
+                            "location": {
+                                "latitude": 41.8447191,
+                                "longitude": -87.7022288
+                            },
+                            "websiteUri": "https://el-milagro.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Taqueria El Milagro",
+                            "weekdayDescriptions": [
+                                "Monday: Closed",
+                                "Tuesday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+                                "Wednesday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+                                "Thursday: 8:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+                                "Friday: 7:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+                                "Saturday: 7:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+                                "Sunday: 7:00\u202fAM\u2009\u2013\u20097:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJM_hwKncyDogR4M0INwQVLHI/photos/AXQCQNTITKmh5Oy5Y6O-YEUo0e1vZ-mfhOM_b87p65AN1HeuQRCxF2YlN2EOKS-wx4cPdvZ7NBy5wth9mfUSlpcBJuU7YPkuTFzuufDYe2lSH15nIALfRmpPMuRiEDd1AmsYni5jYcBrLudKgPifcYYLIiv8wLGi-DSQ6CX12J_iXMyHrxBFNKcCVSM1tFZhHm1Gjn94GpJ5FBRiuKPuMtHvzXY2pZoLsTbn4Kum2n2O0yrl-Cttkslrd8LzQVEMDVAObE-M9IXpGeSBzdh3fAYT9HseSWQrrHc_VyHd4O_5p2V7gT0nvqZBEAZiECYeF9ff9Z1Ei-QlWgKcvqZPlwwbEbu6neWT632mlQlWHUKb6e4lcxCjwfbCSfRSSocQlNfawPsssX7nBW1hyWMqEL4kst7-U2p1g4oxpT0bd5RFUFX_ecc"
+                        }
+                    }
+                ],
+                "attractions": []
+            }
+        },
+        {
+            "Ukrainian Village": {
+                "location": {
+                    "latitude": "41.9003",
+                    "longitude": "-87.6836"
+                },
+                "restaurants": [],
+                "attractions": []
+            }
+        },
+        {
+            "Magnificent Mile": {
+                "location": {
+                    "latitude": "41.8949",
+                    "longitude": "-87.624"
+                },
+                "restaurants": [],
+                "attractions": []
+            }
+        },
+        {
+            "Wicker Park": {
+                "location": {
+                    "latitude": "41.9088",
+                    "longitude": "-87.678"
+                },
+                "restaurants": [
+                    {
+                        "Cava": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "mediterranean_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.5,
+                            "address": "1484 N Milwaukee Ave, Chicago, IL 60622, USA",
+                            "location": {
+                                "latitude": 41.908713299999995,
+                                "longitude": -87.6752161
+                            },
+                            "websiteUri": "http://cava.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "CAVA",
+                            "weekdayDescriptions": [
+                                "Monday: 10:45\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Tuesday: 10:45\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Wednesday: 10:45\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Thursday: 10:45\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Friday: 10:45\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Saturday: 10:45\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Sunday: 10:45\u202fAM\u2009\u2013\u200910:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJKQqKPgDTD4gRVlMqc5om0Rc/photos/AXQCQNSYaQ-hy35aIH_QViJeEUHmD7ZCk9tzCueWUnenXSoYr77XLdOu-m_3_igSqcRi1oFafEQw4clUHHpqYJ5yxtoxuw3b9Z0kcF0KOYPjdEeroHGhpsNr4lALk-XRwdNu4tV9UsZdWmmV-34c34KX7JQ5rOMOhn3u5xGMfsMvlq7vQhfCtOHHe-KgNaNBxMiu4c98Voa99MHTiOQhrm64Adao5HkSbFH_0QatChJEqXt8v-a3z8ukLjMeAi7DbXfDkylAaZ5XxJYDyNPpr6bKleYnH_kytsnhGVh4sobYrjT4layl17xp-90azj9__Xd_6MSYCEFCymVwD4igC5NfBIvUj-ol9n9cw46x_xu8NTaUz4tLt7choQJCkD2DHtDx8XER_YM2iSWOQT1lr7pS2se1UIU2rBk3gCh2jABQED5yPA"
+                        }
+                    },
+                    {
+                        "Shabu Plus Rotary Hot Pot": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.8,
+                            "address": "1352 N Milwaukee Ave, Chicago, IL 60622, USA",
+                            "location": {
+                                "latitude": 41.906231,
+                                "longitude": -87.67139399999999
+                            },
+                            "websiteUri": "http://rotaryshabu.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Shabu Plus Rotary Hot Pot Wicker Park",
+                            "weekdayDescriptions": [
+                                "Monday: 1:00\u2009\u2013\u200910:00\u202fPM",
+                                "Tuesday: 1:00\u2009\u2013\u200910:00\u202fPM",
+                                "Wednesday: 1:00\u2009\u2013\u200910:00\u202fPM",
+                                "Thursday: 1:00\u2009\u2013\u200910:00\u202fPM",
+                                "Friday: 1:00\u2009\u2013\u200910:00\u202fPM",
+                                "Saturday: 12:00\u2009\u2013\u200910:00\u202fPM",
+                                "Sunday: 12:00\u2009\u2013\u200910:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJjfXnGBPTD4gRdoLkTvWIe1M/photos/AXQCQNTEXCqeh2ZXAIza1XgYYEBu6819jAqIhgSx-v7FgN94h3yd00emAJ-A-da1RBfhgYa9FufZ2g9nBOPEiz_DXkSQII8dmPCuIs21vw4XRw89xt0bLgqseWEKDvC5idd_nOr09Zo-Orb7jfSliq8NZZuyABcforcg7NJObXhoV0lxcCvDdoiVAl32IVrFrMYSLhX-mVEvXlZzhyCLfU47f4xgrILS-Vhd6zD2I2Zs0_Gq0oK93fxBWnvh4XdC0sWChkaU5J27KMhtmPJCXpcjXwDgDt3EYp2UATHUd3RvOZvXV81Q_C4EgkgUhaPKbyU_QZcY3HnBwoP0VbQCqsbx3x6hvDGd8m6SSksV-BY1GbCMLXw1O0ADA9rB0rskQ7jbwZV4hnhatKbPC9da6sFDQWz3dK_qdugx6dsQp64VF2zuz2i-"
+                        }
+                    },
+                    {
+                        "Taxim Restaurant": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "greek_restaurant",
+                                "mediterranean_restaurant",
+                                "wine_bar",
+                                "bar",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.3,
+                            "address": "1558 N Milwaukee Ave, Chicago, IL 60622, USA",
+                            "location": {
+                                "latitude": 41.909648999999995,
+                                "longitude": -87.67672499999999
+                            },
+                            "websiteUri": "http://www.taximchicago.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Taxim",
+                            "weekdayDescriptions": [
+                                "Monday: 5:00\u2009\u2013\u20099:00\u202fPM",
+                                "Tuesday: 5:00\u2009\u2013\u20099:00\u202fPM",
+                                "Wednesday: 5:00\u2009\u2013\u20099:00\u202fPM",
+                                "Thursday: 5:00\u2009\u2013\u20099:00\u202fPM",
+                                "Friday: 5:00\u2009\u2013\u200910:00\u202fPM",
+                                "Saturday: 4:30\u2009\u2013\u200910:00\u202fPM",
+                                "Sunday: 4:30\u2009\u2013\u20099:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJj9-UasfSD4gRafgxp0S5YlQ/photos/AXQCQNQJ2llmwg5GVKyblnVRnRvfgxfT_uQ-bi4bNaTMQ_owpUrJYxjqBvCyc21ROrXcl943LQWV3fshrgjFdC-wUa8O5Q9PziizmGdmu4_vkfeOqjeivmEIdMMjoaLeVMjEqe5o2ACXaan15YIjN1oVOdRKsChb82-pa9kHFHNnXtZKOcEaT6Z9EVszdaKs7rMgmjTaSGYZSrKZm-_nwLxU7SYO_3_C0woLyt_UQ9R4sNuZovj9AwmBnvgW7-kqLGiuw7y7bJB5gbgfqhc_XdJdyjpkDuSHluISP12p_fhd9VpkcfrbbE2IPCepkuHmVYCqVypVd7rgVZdjO4RftXQWCdbW0aXMZtyIyNnD2czR6Vx3NezXLo6UgProzyxI8SbQwo_1PaKNKe6u1g8B8iNK128llOzyX8oPz9CwMmtpjlpplADK"
+                        }
+                    }
+                ],
+                "attractions": [
+                    {
+                        "Clever Coyote": {
+                            "queried_by_places": true,
+                            "location": {
+                                "latitude": 41.9106105,
+                                "longitude": -87.6781632
+                            },
+                            "tags": [
+                                "restaurant",
+                                "bar",
+                                "point_of_interest",
+                                "food",
+                                "establishment"
+                            ],
+                            "rating": 4.6,
+                            "websiteUri": "https://therobey.com/#clever-coyote",
+                            "displayName": "Clever Coyote",
+                            "address": "2018 W North Ave, Chicago, IL 60647, USA",
+                            "weekdayDescriptions": [
+                                "Monday: 5:00\u2009\u2013\u200911:00\u202fPM",
+                                "Tuesday: 5:00\u2009\u2013\u200911:00\u202fPM",
+                                "Wednesday: 5:00\u2009\u2013\u200911:00\u202fPM",
+                                "Thursday: 5:00\u2009\u2013\u200911:00\u202fPM",
+                                "Friday: 5:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+                                "Saturday: 5:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+                                "Sunday: 5:00\u2009\u2013\u200911:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJ88SxkUnTD4gRedukItj9oPg/photos/AXQCQNTNGg2hJMY7Dl-cTsLtahhFADUObzGAR_Xg-D6CPiCGSXQcV6gMjAMxvH8CuX4GEx5DxeEgUUF4MYNlfDdZe3rOBA8HUJQN6Oc7XUb4hJXc-MgM6d3j2tqcGuuqFVP1_pxVt-_TCIkw94BKWVCkDtgcXh5yJSAvF2HiYePTXIWxF_6A4IboajFZ-rX0u-C1B9jo2eNrieyimvzzZPTbKnVA6MRI-TvX5h4RhtsRzYM_yW1hyvUE_7BFSvE7f0dR0aK9FEc1j9Z9yJr3vqv0WlVujAhkduOHeRewpb78d5jd853mQSBg0b2LyEiR2LnQFbkh9G9eXlcOxjmGQ2myqxzyK0NR6EEobByOI-ByHVsnRZvhzLEDGrLYqWY6gmEPU5A7vxm4vCKD_VQau4IAT_poNC0DcBAjDtx5TAx63cLLng"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "River East": {
+                "location": {
+                    "latitude": "41.8905",
+                    "longitude": "-87.6166"
+                },
+                "restaurants": [
+                    {
+                        "Carsons": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "steak_house",
+                                "barbecue_restaurant",
+                                "bar",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.5,
+                            "address": "465 E Illinois St, Chicago, IL 60611, USA",
+                            "location": {
+                                "latitude": 41.890964700000005,
+                                "longitude": -87.6153002
+                            },
+                            "websiteUri": "http://www.ribs.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Carson's Ribs Prime Steaks & Famous Barbecue Chicago",
+                            "weekdayDescriptions": [
+                                "Monday: 11:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Tuesday: 3:00\u2009\u2013\u200910:00\u202fPM",
+                                "Wednesday: 3:00\u2009\u2013\u200910:00\u202fPM",
+                                "Thursday: 3:00\u2009\u2013\u200910:00\u202fPM",
+                                "Friday: 11:30\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Saturday: 11:30\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Sunday: 11:30\u202fAM\u2009\u2013\u200910:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJb0J6irQsDogRs6c6XNo9G6o/photos/AXQCQNQRtYGqisITVkpr8GzO2oy95RTxRncIfNVMLrIMyTvQR8G8YoV-s6lkBVhFFzIMIvkpiGSTTy9ZcWzLiic0H9XxDxhKr2nVm9PInrYWd4BYQCDcBYqVjEKVaZTSPli7wvWNi0cAqw1Es5-7t8L5tlBONMUaWtqHn3l0yR0W6SpumpliPWprE7JHH5c2gTCArzS1HgPKCzZjmD0Nb2bkJjqEJ2yDTrteMB7B9jqb3KlV7Pj9PiYQY6_-d9xCgukqVYsosaqRzuECKR9_733HkqPWiAomG3oIjLmENhYCqtDCPw"
+                        }
+                    },
+                    {
+                        "Odyssey Cruises*": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.3,
+                            "address": "Gleacher Center, 450 N Cityfront Plaza Dr, Chicago, IL 60611, USA",
+                            "location": {
+                                "latitude": 41.8892674,
+                                "longitude": -87.6221355
+                            },
+                            "websiteUri": "",
+                            "priceLevel": "",
+                            "displayName": "Odyssey Cruise River North",
+                            "weekdayDescriptions": [],
+                            "photo_name": "places/ChIJ44JzMaEtDogRRElxS9OTO4g/photos/AXQCQNTY8x3uhTxiC2SXHsJyKpjFGjH029RIYVPfY0J73NuJV2tIdGfcp7aFCjJUBmjcXdVdjmCY1XjnnBsMJ_N0Xr_7yowqEeSjPuqmckmPD7T7Ysb73GVC0N2J0KpZ4wg1aqI0BwVfOuPrQ4kJV4mtEiCa2stLfrYKMvqmVGNyfG6PAutCUPC30Mo08mrFabVuU6F07Q-k9u2eyFOR38pncbuZcCx8Z7m4dkTdSwQKSyTKRjPhDBwA22hqO0ucDFopdHw5JLLLiPI55stRmXB3bRi12i8ivOUOgLmZqrNmTtkET2MZMfk5JEmFt7Az6iSmfAiysksGtXbOyKSGsdfNBYr_wY5-dFl2ihRh_BfmIZZ2P0ehHZIPWo9KshYpbrh7LkJFIoqhkuOLjjbB7QO09btJrYybIGr8HeWXuBL2lg5DRw"
+                        }
+                    },
+                    {
+                        "Pinstripes": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "restaurant",
+                                "bowling_alley",
+                                "banquet_hall",
+                                "catering_service",
+                                "food_delivery",
+                                "bar",
+                                "italian_restaurant",
+                                "wedding_venue",
+                                "athletic_field",
+                                "sports_complex",
+                                "sports_activity_location",
+                                "event_venue",
+                                "american_restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.4,
+                            "address": "435 E Illinois St, Chicago, IL 60611, USA",
+                            "location": {
+                                "latitude": 41.8909198,
+                                "longitude": -87.6162815
+                            },
+                            "websiteUri": "https://pinstripes.com/?utm_source=local&utm_medium=organic&utm_content=gmb",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Pinstripes",
+                            "weekdayDescriptions": [
+                                "Monday: 11:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Tuesday: 11:30\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Wednesday: 11:30\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Thursday: 11:30\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Friday: 11:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Saturday: 10:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Sunday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJYVAwM1QrDogRebrDLulMuHA/photos/AXQCQNR1hGlwyBJy8Cnuvj3bb79sKc2wIoPhs-IttDlwoBY-Az9MRYr99Llu-SaIb7ZsYxYNXaKjSyaoViyofDbR1fSSqSyWGs5sZ86T9eNbBinP4zA8NZrh57shJ50OIINgeN8O4p7VXCS3v4KUvtwL7TKNbjsRFfCT3r_YDU8nm81wVYUqFNsE8mh5i5jPXgPVV930CTgAxLYcaLoFfwAgT06Exh4oIS6gb9_Rg9TIwkyU-8ryFC2AlIbOjWQ8H1YLQnHV1rcKyra9TNYQ48bsMVm8FNwUzDmu02qQDZTmNcq8hg"
+                        }
+                    },
+                    {
+                        "HotHouse": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.5,
+                            "address": "300 E Ohio St, Chicago, IL 60611, USA",
+                            "location": {
+                                "latitude": 41.8927461,
+                                "longitude": -87.6200734
+                            },
+                            "websiteUri": "https://www.hilton.com/en/hotels/chimmdt-doubletree-chicago-magnificent-mile/dining/?SEO_id=GMB-DT-R-CHIMMDT&y_source=1_MTU0MDU0MTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+                            "priceLevel": "",
+                            "displayName": "HotHouse",
+                            "weekdayDescriptions": [
+                                "Monday: 7:00\u2009\u2013\u200911:00\u202fAM, 4:00\u2009\u2013\u200910:30\u202fPM",
+                                "Tuesday: 7:00\u2009\u2013\u200911:00\u202fAM, 4:00\u2009\u2013\u200910:30\u202fPM",
+                                "Wednesday: 7:00\u2009\u2013\u200911:00\u202fAM, 4:00\u2009\u2013\u200910:30\u202fPM",
+                                "Thursday: 7:00\u2009\u2013\u200911:00\u202fAM, 4:00\u2009\u2013\u200910:30\u202fPM",
+                                "Friday: 7:00\u2009\u2013\u200911:00\u202fAM, 4:00\u2009\u2013\u200910:30\u202fPM",
+                                "Saturday: 7:00\u2009\u2013\u200910:30\u202fAM, 4:00\u2009\u2013\u200910:30\u202fPM",
+                                "Sunday: 7:00\u2009\u2013\u200910:30\u202fAM, 4:00\u2009\u2013\u200910:30\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJQ-XV56ktDogRqCGLFwD5-P0/photos/AXQCQNTxjqS9H-NUW_hPs4xMa-VxA0LALhZM3A8PXA8sKuXaMgj1RpAJMQABaeZQdGY-ibSQcpjoqT0PkzxuJxJGA2Ov-xa2WkD87qRAuHbPgooGM7YAN9YD3hgC7_Dac99Dmcm9dTCCpfgC_eDhH1dp_0igWMCEPWw8dNE0JGIg8b65tLCGF59jxaTSeMLyJGDUvYzV6qT3AiUm3l-LpNCSUNJTPxEeazCRTwCYpfOxXZb8IXK9yeOhYrzw24EP0fHGZUTZ-lX0Vn__aFOmJvMf3logG6DipWiGdycSK8asFwJ0Ny-MXFSTJa6VhtWJVTdwtyAuoC_gCGyr2hjmxiOtfnM-T--hYKwdW9HjHELgSQkxbryWHWeeJ2KzPpSeXuzqIkNgIjwYI-AtBRqLMVZQWN4EQ2FiBH6qLns0abj-vIQ7KlPW"
+                        }
+                    }
+                ],
+                "attractions": [
+                    {
+                        "AMC Theater": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "movie_theater",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.4,
+                            "address": "322 E Illinois St, Chicago, IL 60611, USA",
+                            "location": {
+                                "latitude": 41.891199199999996,
+                                "longitude": -87.6190787
+                            },
+                            "websiteUri": "https://www.amctheatres.com/movie-theatres/chicago/amc-river-east-21?utm_medium=organic&utm_source=google&utm_campaign=local",
+                            "priceLevel": "",
+                            "displayName": "AMC River East 21",
+                            "weekdayDescriptions": [],
+                            "photo_name": "places/ChIJ-yE9DKosDogRYo4LxthznMs/photos/AXQCQNRhYd64WpxR0cnvy6Q6kTDl0I1FBtNyzV6Hr8ZKCKxbWgj50aXBtMb7vgpCubZhM6QNjLwS8g9J2XUuCqsi6BMMzfy_OIAX9eClxhhOhjfKlNIzHrzkbVTztjcLgNCvyf57lDD5M_fTIK4F0i_xLBYiTyPhk6tBAM-FKLfYGoKtAsbgd3yCY5k81MHEilF4fChmH6eegwtd0in1gWIOBJLBa7dgggOzysHlgST-8K6GKhI9FZXXfRpV6zaRbCEWF4bNy7HpjAjEai-zj6RZpvUsO9iRwjnbvx7DSgDI5jWN3EsTW0IM0Ms-_sHHCQGlH1N4B36L0qbRfxpuY41ePJjjrNgQqar5VnwCZVg0j-IMG4_KU8Trtk3u7v7WfRcr52Bm7-BNLmKG5BurNLF15WdfOnAdP8R6lEUvQBDcHiEJxg"
+                        }
+                    },
+                    {
+                        "Pinstripes": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "restaurant",
+                                "italian_restaurant",
+                                "bowling_alley",
+                                "catering_service",
+                                "food_delivery",
+                                "sports_complex",
+                                "banquet_hall",
+                                "american_restaurant",
+                                "bar",
+                                "athletic_field",
+                                "wedding_venue",
+                                "event_venue",
+                                "sports_activity_location",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.4,
+                            "address": "435 E Illinois St, Chicago, IL 60611, USA",
+                            "location": {
+                                "latitude": 41.8909198,
+                                "longitude": -87.6162815
+                            },
+                            "websiteUri": "https://pinstripes.com/?utm_source=local&utm_medium=organic&utm_content=gmb",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Pinstripes",
+                            "weekdayDescriptions": [
+                                "Monday: 11:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Tuesday: 11:30\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Wednesday: 11:30\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Thursday: 11:30\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Friday: 11:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Saturday: 10:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Sunday: 10:00\u202fAM\u2009\u2013\u20099:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJYVAwM1QrDogRebrDLulMuHA/photos/AXQCQNQNYbXH3vMTvBYCFmNCQFUs7IfKZtyaL_iRkyX9pS6r9MDB-zi1lF6W7LJQV1xuoE00ZEmjJoHaBE04a1KYoCZTtn_wBNo0MrlV3kphiW9UuaTh0V6d6PAGyLgmLcN3RTnlyuum5fmdsZcI455iAbMjMU9Vrw9k-pfuBVISnjsnEB7FxKHsn5UjfjNLzhK-BnxvvIbJwzSP0NF32gHGHEqy2BTxrOttYPO3t6gmS5mN7mwK3Zt6X8dLlLF0zLe-tbVBMpnbo5J2XzCEY2cpf05GxhTw1AR2fS9EOxiEPL_oZA"
+                        }
+                    },
+                    {
+                        "Ohio Street Beach": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.6,
+                            "address": "600 N Lake Shore Dr, Chicago, IL 60611, USA",
+                            "location": {
+                                "latitude": 41.893597,
+                                "longitude": -87.6124693
+                            },
+                            "websiteUri": "https://www.chicagoparkdistrict.com/parks-facilities/ohio-street-beach",
+                            "priceLevel": "",
+                            "displayName": "Ohio Street Beach",
+                            "weekdayDescriptions": [
+                                "Monday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Tuesday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Wednesday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Thursday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Friday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Saturday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Sunday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJATbtaFMrDogRiPpJWC_5w80/photos/AXQCQNSZjMDof8OvSqlMPfL3VA2f1wIyr01rdmT6VPqFzco50y48OeTOvovdi-L8-NSdiPROyUrmMr57JahxsUlFM-AaLNUyvthv8w3py0xQIsxIQLrxVKKLNVyoQjXjFDsNLd7aiqXb1nfQ1KGeJZ--2oOECQXnuP5VShvqeruDxc31yLRAbIXHzD2QYWRk2WOYKQGJwAsB25G50dEZp3gkSIPhyx1wsNCBQjWItS599orXaPk3IMWh37JcwI85uF-wX8AeqKUpJihONJPgJz25rNvZZdLwZInLyC66Ko-Nj5gtljfnvtjT1wmgjEhA5neVLnsTJd31F5Wib3879RNwR0caeAT276-OryqOWU6kBbRbU0FRrE7S73xVY3S-D73-Rw6fGhfhWpqMF7t1jvgR6w41mqYSVR0MzgmOQLHPWrGzrg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "South Loop": {
+                "location": {
+                    "latitude": "41.8604",
+                    "longitude": "-87.6217"
+                },
+                "restaurants": [
+                    {
+                        "Eleven City Diner": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "diner",
+                                "brunch_restaurant",
+                                "breakfast_restaurant",
+                                "american_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.6,
+                            "address": "1112 S Wabash Ave, Chicago, IL 60605, USA",
+                            "location": {
+                                "latitude": 41.8686765,
+                                "longitude": -87.62609789999999
+                            },
+                            "websiteUri": "http://www.elevencitydiner.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Eleven City Diner",
+                            "weekdayDescriptions": [
+                                "Monday: 8:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+                                "Tuesday: 8:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+                                "Wednesday: 8:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+                                "Thursday: 8:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+                                "Friday: 8:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+                                "Saturday: 8:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+                                "Sunday: 8:30\u202fAM\u2009\u2013\u20094:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJ384ms5ssDogRVJD-xbpZwmM/photos/AXQCQNSI9gYe5qnFLhZjBzsqt6IonGu9oaAg5imGJAaSKKSxDWNkRplqGvk9zIqkgvSb-6--ZTINRYZzeY4ZhVABweDjDtTAXI4Q0OiV2Nh2-3akC93vuVrL8WFa5ZJWHF6tc2J-egru2YFGwb6Sr2BsYD1UafJnaBF110AAunyn8N1yv6iHeTnsZHZTKiUX2eYWIakbZw2HWfs-vReOQQ6g2rjw6IOFMkxxc5hQqWnN382b4uD75yroJoiWziL7pPn-Up3Rmwa2neftPovA5skMgzIuUElYGlx1F_OiGyqoD6kuYw"
+                        }
+                    },
+                    {
+                        "HoneyBerry Pancakes and Cafe": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "breakfast_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4,
+                            "address": "901 S State St, Chicago, IL 60605, USA",
+                            "location": {
+                                "latitude": 41.8702958,
+                                "longitude": -87.6273136
+                            },
+                            "websiteUri": "https://honeyberrycafe.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Honey Berry Pancakes and Cafe",
+                            "weekdayDescriptions": [
+                                "Monday: 7:00\u202fAM\u2009\u2013\u20092:30\u202fPM",
+                                "Tuesday: 7:00\u202fAM\u2009\u2013\u20092:30\u202fPM",
+                                "Wednesday: 7:00\u202fAM\u2009\u2013\u20092:30\u202fPM",
+                                "Thursday: 7:00\u202fAM\u2009\u2013\u20092:30\u202fPM",
+                                "Friday: 7:00\u202fAM\u2009\u2013\u20092:30\u202fPM",
+                                "Saturday: 7:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+                                "Sunday: 7:00\u202fAM\u2009\u2013\u20093:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJAf7ePOMtDogRxdmkmnpdIkA/photos/AXQCQNQwNMyg1TvTCe67CSqjesGCYnCRJSSpEbfzOpNGWoepZ_JlFZapR2ODcXS0JMArQRQ3JR397FEoaPETGT9hNmvswvO8zyAecw-zYdRyyUlejr5-4y4O9MOcEUF4xi0D9_mUQ0zGjNEPDzglWwA8WVrJwuwbK8pDZyPx6htd-KaNXHZThVCbCCsjo2lEGmM_tJlasw38uxCLAe_a38cn7Gia6rxJMZRMhfuyjZap-gK-NNxWZ74f-rPpRL2kz4b-zD7YnS-TcRPM464Me_wq0ObhDU8Zi0hNK4iMbGGADR7e0g"
+                        }
+                    },
+                    {
+                        "Flacos Tacos": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "mexican_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.1,
+                            "address": "725 S Dearborn St, Chicago, IL 60605, USA",
+                            "location": {
+                                "latitude": 41.8727352,
+                                "longitude": -87.6289697
+                            },
+                            "websiteUri": "http://www.flacostacosonline.com/",
+                            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+                            "displayName": "Flaco's Tacos",
+                            "weekdayDescriptions": [
+                                "Monday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Tuesday: 10:30\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Wednesday: 10:30\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Thursday: 10:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Friday: 10:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Saturday: 10:30\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Sunday: 10:30\u202fAM\u2009\u2013\u20099:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJhRFgd5csDogRnLQgyTqKy-0/photos/AXQCQNSNuJRLMKBDxaFc4d62cn0zkbrQdLeeoIPYFih68Mq_k_qc449b2lO10npDZF6iK8_6cKJ2NxrE_6ClW5TzOc2TQFAYjotYPMEu0gf3O8PLjEiwbMPqs-9D6ELJJWCNTH3Vc3jyMgWak3yX8UliQ_ulQCJCDH99ZPnJ-b7j1vhFFgpEfyw_TGwDhOHZ08wkkz1iHtu7dBL08pIWeCaHwZSvxPtTCHgzRMZxubn6tiSJQNJTJHjmWsrAKEgc9Q9R87RSybkyoxwyt_C9TN_tQzy1ZsmN98HmIVlC47xe5RdsZqLTJpsKeIq0quz6_WcaMSTCZ9hH3MEL3GbpAhteLhuC4mexOy_wFmXvrlPiQFZHC17yfiYdXJb5k3gOe5TOdpAmHXoKI8CECo8DhlBb1daGsPbV7pmIMN_wnSpwpYZ1LQ"
+                        }
+                    },
+                    {
+                        "Half Sour": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "restaurant",
+                                "bar",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.4,
+                            "address": "755 S Clark St, Chicago, IL 60605, USA",
+                            "location": {
+                                "latitude": 41.872448,
+                                "longitude": -87.63032199999999
+                            },
+                            "websiteUri": "http://halfsourchicago.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "Half Sour",
+                            "weekdayDescriptions": [
+                                "Monday: 12:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Tuesday: 12:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Wednesday: 12:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Thursday: 12:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Friday: 12:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+                                "Saturday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+                                "Sunday: 10:00\u202fAM\u2009\u2013\u200912:00\u202fAM"
+                            ],
+                            "photo_name": "places/ChIJzwGUD5csDogRjT1mpzDe38o/photos/AXQCQNRGBVyX4JLirqovdd4R9Yrr-PhkB_30o52Vk1A8ycYCNncKFUeMF0bEcoNsAXE4A_cKsXWfii-70FnvgSdkyphPLtSyS6-ggWklRS_yOaTXPP1YzNsgJ7m-8sT9eIlawAlOg0yTGA5vg0SUhTJZcefuQUGXI7XwV9rgoPDsFVWIl-oV6jvxUAZ1wlN8dxHDGeQXt82UFflCqYBI_MxbJ_ahBF37_jIxx0zgLyWz2kIChy8P7B5FEfhGmuKdwgriDc9UJv3HjaKdUbPTqrCuhdHookO65j9eZt9zyAmlxH83qw"
+                        }
+                    }
+                ],
+                "attractions": [
+                    {
+                        "River Walks": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "park",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.8,
+                            "address": "600 S Wells St, Chicago, IL 60607, USA",
+                            "location": {
+                                "latitude": 41.8741536,
+                                "longitude": -87.6354953
+                            },
+                            "websiteUri": "",
+                            "priceLevel": "",
+                            "displayName": "Southbank Riverwalk",
+                            "weekdayDescriptions": [
+                                "Monday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Tuesday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Wednesday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Thursday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Friday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Saturday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+                                "Sunday: 6:00\u202fAM\u2009\u2013\u200911:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJsR_vBVwtDogRq4a0IhopQZU/photos/AXQCQNQmhy0G5vPwSlWey_wuMqUBiBm9hK-En5Hf7DSdbZyODkXDtpHj-xTej2bDNrP73I2R8lm1WGVOJeQFRnE86jNLnvCIbAhNEAzoj_JDD9B7wJcG25TKhLaONXgQG4fBjH8ltzMDwSQZX_A9EqalWqLKNV0FDgvsPZbEY44FQ5SzyXPiZCBOmNnFAknc1EeuBsEm3LXqWWbXgrEYUsPFVa95OFqufgCw85IyCFXV1BEbXYtfPlPXUe8rIFvnCgnSjfmTIUK8irIxzVxGehArmtB6hEo7512LMOsZ_4TKzi0JU8f3VMmdAszNK9dAJ2SE6ljhR2_46pqeAkMzyh6rHzXrgf3sNJrfLV3eOo0HC-fLNSdAzVmAXq0RWV5fnB0uxBMdz1_btDn5BrIfrY2g14vJVKuWjK73T69f8dne6CM"
+                        }
+                    },
+                    {
+                        "Field Museum": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "tourist_attraction",
+                                "museum",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.7,
+                            "address": "1400 S Lake Shore Dr, Chicago, IL 60605, USA",
+                            "location": {
+                                "latitude": 41.866261,
+                                "longitude": -87.6169805
+                            },
+                            "websiteUri": "https://www.fieldmuseum.org/",
+                            "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+                            "displayName": "Field Museum",
+                            "weekdayDescriptions": [
+                                "Monday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+                                "Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJV0AwM30rDogR2sd-X0cgErU/photos/AXQCQNSl1ffC1akApaL15wbe_saJAbHc76eyzGcX0Qzd30blAz9YAJCQKbmeN5IJJvvD7MN2bAj_e824caYeVTA27JYEB2_BfAOK2Lib-QPCeq1yDG3DqdjSdgnf9zArvXg6fH7XJ9E37TLSVovlmffqqNuXRx2nLo7W6pcFlLlyjSuk8PoBJamVZjeHeKEGReHOl77OmewRDfdGNWFwUPEhb-FcxKFeCoSMrZg-3lCEbB6JA_7dtUIHE-NIQcGKEiHJLcXeh0ei7SLmAYxMOjeB6WGrlHnpnWbM0Z_zk_5Qqsg-qnX3IcWGecM4UQqp7f84HsVwUDTLqu99IUUnJ9deZ4yAfbdFzKE1Fu42MDdy9at6nSU4DhMv10jR4gOMa9KdArHC2OY49zfeaLTPdnlRJJlw_B2hG5u8hVHogv1mIpitxIQ"
+                        }
+                    },
+                    {
+                        "Adler Planetarium": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "planetarium",
+                                "tourist_attraction",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.2,
+                            "address": "1300 S DuSable Lake Shore Dr, Chicago, IL 60605, USA",
+                            "location": {
+                                "latitude": 41.8664066,
+                                "longitude": -87.6067898
+                            },
+                            "websiteUri": "https://www.adlerplanetarium.org/",
+                            "priceLevel": "",
+                            "displayName": "Adler Planetarium",
+                            "weekdayDescriptions": [
+                                "Monday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+                                "Tuesday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+                                "Wednesday: 4:00\u2009\u2013\u200910:00\u202fPM",
+                                "Thursday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+                                "Friday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+                                "Saturday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM",
+                                "Sunday: 9:00\u202fAM\u2009\u2013\u20094:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJtRSxt28rDogRpo4hEqqjIGk/photos/AXQCQNQG9dutGc4txr7lU3Th8W2Gs8JISkA-KZqmekvBX3R6LOwMe6ipsCY2DwigPl6EuE9jd_VnxWYklpcppdYmpxj3pjJTxtphyJjmaZvMPH4B7qU2hH44gr7RCJtdwZ319gyuQdl8J__2M14kBTPRQCURHhR7t6vA-ZQE7opB0mEnYO17bKI4UoKw-kRWc-VW2O12NRSlf-pBPBlOmwnjGXl4M1_mlBPf4BSpk3c6FQem-KaYEIKSHKU1-H6CWGclLASrfuNiq42Zv-QjKrIfvA9viL33N8VZnJuXe-0Yo0_MAthS0JEGJSLBCy_JesnzoqYNIOEnyQKmh9_UaXIz_v0rRTxgfZ7tz9GyT6zUMDqelnMJfp-STTfxD5ZhRtofWV5v0ToCQMuY9UdzQet3iY5XcRssNleFsv1Zy4TXdhYuVA"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Chinatown": {
+                "location": {
+                    "latitude": "41.8538",
+                    "longitude": "-87.6336"
+                },
+                "restaurants": [
+                    {
+                        "MCCB Chicago": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "chinese_restaurant",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.5,
+                            "address": "2138 S Archer Ave, Chicago, IL 60616, USA",
+                            "location": {
+                                "latitude": 41.8539063,
+                                "longitude": -87.633664
+                            },
+                            "websiteUri": "http://www.mccbchicago.com/",
+                            "priceLevel": "PRICE_LEVEL_MODERATE",
+                            "displayName": "MCCB Chicago",
+                            "weekdayDescriptions": [
+                                "Monday: 12:00\u2009\u2013\u20099:30\u202fPM",
+                                "Tuesday: Closed",
+                                "Wednesday: 12:00\u2009\u2013\u20099:30\u202fPM",
+                                "Thursday: 12:00\u2009\u2013\u20099:30\u202fPM",
+                                "Friday: 12:00\u2009\u2013\u20099:30\u202fPM",
+                                "Saturday: 12:00\u2009\u2013\u20099:30\u202fPM",
+                                "Sunday: 12:00\u2009\u2013\u20099:30\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJ-_3liGEsDogR5zjWpg2fFAc/photos/AXQCQNSMWCjniUxNhyIShtLyWbOdIJg9XI3LkCDY7Lmg0_-E10q1qurjRyHRFs6qvyF4Fzep6WAER2rbntwZycErrCjI7_0qs5yJ7qOKcKMjVdQVFfIhXG8OZpb54oagQq4yllc7j02neOmMJiTeSFoWnEwH50f2odnFgZfHL9fvBftB4V1bFEKKLqiEWuq6T9fDbpdQy6QMBg7btebtbpxCQZF6NK3-_-0k7VpkbDUjbtU5-MMx0-AlY03QkMCcmZK38DL4aDeXId0fTdHuOppcZA7jaPJgNs7xnvWxLvzHTpq08ptEwbUnbXWbZJrSblNQnKLHA7ulyW8lAGfBewYqIE8DWewqj3173WTtdX4RYfHx_aIgwtFPIFJeOG3UT_vG7T6Wpjv9HzE0tBOi_wSbNKl7mwCYIcW9ulk6ODjCxxL1Yg"
+                        }
+                    },
+                    {
+                        "Mango Mango Dessert": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "dessert_shop",
+                                "juice_shop",
+                                "ice_cream_shop",
+                                "confectionery",
+                                "tea_house",
+                                "food_store",
+                                "store",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.6,
+                            "address": "2161 S China Pl 2nd fl, Chicago, IL 60616, USA",
+                            "location": {
+                                "latitude": 41.853702999999996,
+                                "longitude": -87.6347661
+                            },
+                            "websiteUri": "https://www.mangomangodessert.com/",
+                            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+                            "displayName": "Mango Mango Dessert",
+                            "weekdayDescriptions": [
+                                "Monday: 12:00\u2009\u2013\u200910:00\u202fPM",
+                                "Tuesday: 12:00\u2009\u2013\u200910:00\u202fPM",
+                                "Wednesday: 12:00\u2009\u2013\u200910:00\u202fPM",
+                                "Thursday: 12:00\u2009\u2013\u200910:00\u202fPM",
+                                "Friday: 12:00\u2009\u2013\u200911:00\u202fPM",
+                                "Saturday: 12:00\u2009\u2013\u200911:00\u202fPM",
+                                "Sunday: 12:00\u2009\u2013\u200910:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJj1Il83ItDogRE81IMiLVsxs/photos/AXQCQNSvsz8sX7qCRY3ySfZ9BIzx6fvsjdODkuzUkYhVrWGb4URmdfZap5RXX_gpcB5fJ7_cBjpmHyktZkZJZlLs4DUmVeBT_fY1ygsCzy_1unyHc6lNWjdWjlqq7i72_kWCw53pJvCpeavTaz6c_XlFyJGnaKSuKXxIg9iFvtgxa_3h3QmvY-dXG6F3__RNAS_ZhusdW5iTJdqtwncoOIqq-nYrnIIGf3JUETLE4aBi1C3pArkJvMU0wK0xMJB7c7PR5sLTyMeu28uBs3hSRzOLN58r_qfNiIWlSWq9MX9_KIegyA"
+                        }
+                    },
+                    {
+                        "Chiu Quon Bakery": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "chinese_restaurant",
+                                "bakery",
+                                "wholesaler",
+                                "food_store",
+                                "store",
+                                "restaurant",
+                                "food",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.4,
+                            "address": "2253 S Wentworth Ave, Chicago, IL 60616, USA",
+                            "location": {
+                                "latitude": 41.8513689,
+                                "longitude": -87.63168449999999
+                            },
+                            "websiteUri": "http://www.cqbakery.com/",
+                            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+                            "displayName": "Chiu Quon Bakery",
+                            "weekdayDescriptions": [
+                                "Monday: 7:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Tuesday: 7:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Wednesday: 7:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Thursday: 7:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+                                "Friday: 7:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Saturday: 7:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Sunday: 7:00\u202fAM\u2009\u2013\u20099:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJTQ5N62MsDogRyZPVrup6UBQ/photos/AXQCQNRALat3JPGEOZVg7rtehKf-GrlGdWdynAqA2stGFeNHAynU14RMtzERX5ZQslJX7gA3paq-eTiIQUhgR2cmWRxhy3cQO8HJFkZCfpYqbMDbzi3FJ--hADZaGbbZwXJM7cbzf4L9L5yc1XRp1zPpQs6XGm7of8XQxxEKc6SeL183wT9k9zN351SuCONTWwdsR-ezan1PsWKonDesOx8Fnn4Bgu5CPWgarHaG6ib7lr0h4ecwG_9lLw156Qs-2VQCWhDU_fSHfJypIwsZ8117UgkMMYnrBj7Li2GYBPmIEz_Guw"
+                        }
+                    }
+                ],
+                "attractions": [
+                    {
+                        "Ping Tom Park": {
+                            "queried_by_places": true,
+                            "tags": [
+                                "tourist_attraction",
+                                "park",
+                                "point_of_interest",
+                                "establishment"
+                            ],
+                            "rating": 4.6,
+                            "address": "1700 S Wentworth Ave, Chicago, IL 60616, USA",
+                            "location": {
+                                "latitude": 41.8572974,
+                                "longitude": -87.6343835
+                            },
+                            "websiteUri": "http://www.chicagoparkdistrict.com/parks/Ping-Tom-Memorial-Park/",
+                            "priceLevel": "",
+                            "displayName": "Ping Tom Memorial Park",
+                            "weekdayDescriptions": [
+                                "Monday: 6:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Tuesday: 6:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Wednesday: 6:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Thursday: 6:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Friday: 6:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Saturday: 6:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+                                "Sunday: 6:00\u202fAM\u2009\u2013\u200910:00\u202fPM"
+                            ],
+                            "photo_name": "places/ChIJUxsbeoosDogRJyf7X2O4tOU/photos/AXQCQNQ6wT2aOMBt1RNOzI6NQjmZ9N3rPWqAZ2lkalEn-8Qtb-_XZRtZXeepAjXNMH3i93NPzptEvQvuDPFNJhWit6S7pq5PuiNRjfR42RHKz4JEYjEWrRc7jJhV9FCFf41MYQsOCZuvEXAOZFET3njvcUqQnb8Mf4YqASu4YRFMk2IPfe8bWIVWISNnIzmMNZUKyu8PBgOF1zB6REWnxtMseJsdBzjTFpiAA7odsO-Slhonyl7QUYjPMCf7_DjSo93Q4f5NLZ36X3ZO5V_rwe-OVpmKNqtW8J9TSgFdQSXVBrphqWsTA4W3hApYx72hXCjhd8cu0pELk58IRiGvvU5KHWzTW04T82JsN3I18_vwwHvKT-9T90eWJT9vvS4EV612vhfiAgvDGBySZ_lWkrVqrNc5WtjoYYIn8_-ZP3G0rRKYs92P"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

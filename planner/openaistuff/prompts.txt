@@ -1,0 +1,79 @@
+Prompt 1:
+YOU MUST FOLLOW THESE RULES:
+
+1. ONLY use the activities/restaurants I’ve provided. DO NOT create your own entries.
+2. If there aren't enough activities or restaurants, just recommend fewer, NEVER make up new ones.
+3. The final output MUST follow this JSON format:
+
+{{
+    "itinerary": [
+        {{
+            "neighborhood": "Lincoln Park",
+            "name": "Lincoln Park Zoo",
+            "explanation": "Detailed and creative why this is a good fit for me",
+            "day": 1,
+            "order": 2,
+            "category": "activity",
+        }},
+        ...
+    ]
+    "recommendations": [
+        {{
+            "neighborhood": "Lincoln Park",
+            "name": "Lincoln Park Zoo",
+            "explanation": "Detailed and creative why this is a good fit for me",
+            "category": "activity",
+        }},
+        ...
+    ],
+}}
+4. For each day in the itinerary, you MUST include 4 things to do. At least 2 of those MUST BE AN ACTIVITY, and at least 1 of those MUST BE A RESTAURANT
+5. Put all remaining activities and restaurants not used in the itinerary into the recommendations list.
+6. Do not repeat any item in both itinerary and recommendations.
+7. For each item, include: name, neighborhood, category (restaurant/activity), latitude, longitude, and a brief explanation.
+8. If you run out of valid activities, leave that day incomplete. DO NOT substitute with extra restaurants.
+
+Now here is the list of available places and user preferences:
+Activity list:
+{activity_list}
+
+User Preferences:
+{user_preferences}
+
+REMEMBER: DO NOT make up anything not already provided. Use only what's in the list above.
+FORMAT STRICTLY AS SHOWN ABOVE. Do not change field names, do not add or omit fields.
+
+
+Prompt 2:
+Only use activities and restaurants from under "Activity List" based on the preferences under "User Preferences":
+
+Create the final output, consisting of 2 "restaurant" and 1 "activity". MUST follow this JSON format:
+
+{{
+    "itinerary": [
+        {{
+            "neighborhood": "Lincoln Park",
+            "name": "Lincoln Park Zoo",
+            "explanation": "Detailed and creative why this is a good fit for me",
+            "day": 1,
+            "order": 2,
+            "category": "activity",
+        }},
+        ...
+    ]
+    "recommendations": [
+        {{
+            "neighborhood": "Lincoln Park",
+            "name": "Lincoln Park Zoo",
+            "explanation": "Detailed and creative why this is a good fit for me",
+            "category": "activity",
+        }},
+        ...
+    ],
+}}
+
+Activity list:
+{activity_list}
+
+User Preferences:
+{user_preferences}
