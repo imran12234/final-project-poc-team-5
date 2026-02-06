@@ -90,8 +90,11 @@ class SurveyResponse(models.Model):
         on_delete=models.CASCADE
     )
 
-    activity_window_start = models.TimeField()
-    activity_window_end = models.TimeField()
+    activity_duration_hours = models.IntegerField(
+        verbose_name="Activity Duration (Hours)",
+        help_text="Number of hours per day for activities",
+        default=4
+    )
 
     budget = models.DecimalField(
         max_digits=8,

@@ -30,12 +30,17 @@
          <!-- Dropdown Menu -->
           <ul class="dropdown-menu" id="menuDropdown">
             <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:dashboard' %}">Dashboard</a></li>
-            <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:survey' %}">Survey</a></li>
-            <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:activity' %}">Activity Builder</a></li>
-            <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:summary' %}">Summary</a></li> 
+            <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:summary' %}">Summary</a></li>
             <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:favorites' %}">Favorites</a></li>
+            <li class="dropdown-item"><a class="nav-link btn btn-primary text-white" href="{% url 'planner:survey' %}">+ New Itinerary</a></li>
             {% if user.is_authenticated %}
-              <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:logout' %}">Logout</a></li>
+              <li class="dropdown-item">
+                <div class="d-flex flex-column">
+                  <span class="fw-bold">{{ user.username }}</span>
+                  <span class="text-muted small">{{ user.email }}</span>
+                  <a class="nav-link text-danger mt-2" href="{% url 'planner:logout' %}">Logout</a>
+                </div>
+              </li>
             {% else %}
               <li class="dropdown-item"><a class="nav-link" href="{% url 'planner:login' %}">Login</a></li>
             {% endif %}
@@ -44,10 +49,29 @@
 
 
         <img src="{% static 'img/chigologo.jpg' %}" alt="ChiGo Logo" height="36" class="chigo-logo" style="height: 36px; width: auto; margin-bottom: 0; display: block;">
- 
+
         <a class="navbar-brand" href="{% url 'planner:dashboard' %}" style="font-size: 1.5rem; line-height: 1; padding-bottom: 0; margin-bottom: 0;">ChiGo</a>
-       
-   
+
+        <div class="ms-auto d-flex gap-2 align-items-center">
+          <a href="{% url 'planner:survey' %}" class="btn btn-primary btn-sm">+ New Itinerary</a>
+          {% if user.is_authenticated %}
+            <div class="dropdown">
+              <button class="btn btn-light btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-person-circle"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li class="dropdown-item-text">
+                  <div><strong>{{ user.username }}</strong></div>
+                  <div class="text-muted small">{{ user.email }}</div>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-danger" href="{% url 'planner:logout' %}">Logout</a></li>
+              </ul>
+            </div>
+          {% else %}
+            <a href="{% url 'planner:login' %}" class="btn btn-outline-primary btn-sm">Login</a>
+          {% endif %}
+        </div>
     </div>
     </div>
   </nav>
@@ -60,9 +84,11 @@
     </div>
     <div class="offcanvas-body">
       <ul class="list-unstyled">
-        <li><a href="{% url 'planner:survey' %}" class="nav-link">Survey</a></li>
-        <li><a href="{% url 'planner:activity' %}" class="nav-link">Activity Builder</a></li>
-        <li><a href="{% url 'planner:summary' %}" class="nav-link">Summary</a></li> 
+        <li><a href="{% url 'planner:dashboard' %}" class="nav-link">Dashboard</a></li>
+        <li><a href="{% url 'planner:summary' %}" class="nav-link">Summary</a></li>
+        <li><a href="{% url 'planner:favorites' %}" class="nav-link">Favorites</a></li>
+        <li><hr></li>
+        <li><a href="{% url 'planner:survey' %}" class="nav-link fw-bold">+ New Itinerary</a></li>
         <li><a href="{% url 'planner:register' %}" class="nav-link">Create Account</a></li>
       </ul>
     </div>
@@ -75,7 +101,7 @@
 
   <!-- Footer -->
   <footer class="py-3 text-center small">
-    &copy; {{ now|date:"Y" }} ChiGo · Demo 2
+    &copy; {{ now|date:"Y" }} ChiGo · Demo 3
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

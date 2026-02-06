@@ -4,6 +4,26 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 
 class SurveyResponseForm(forms.ModelForm):
+    trip_title = forms.CharField(
+        required=True,
+        label="Trip Title",
+        widget=forms.TextInput(attrs={"placeholder": "My Chicago Adventure"})
+    )
+
+    stay_length = forms.IntegerField(
+        required=True,
+        label="How long will you be staying? (Days)",
+        min_value=1,
+        widget=forms.NumberInput(attrs={'placeholder': '3', 'type': 'number', 'step': '1'})
+    )
+
+    radius = forms.IntegerField(
+        required=True,
+        label="Radius from stay location (Miles)",
+        min_value=1,
+        widget=forms.NumberInput(attrs={"placeholder": "5", 'type': 'number', 'step': '1'})
+    )
+
     preferred_cuisine = forms.ModelChoiceField(
         queryset=PreferredCuisine.objects.all(),
         label="Preferred Cuisine",
@@ -25,16 +45,17 @@ class SurveyResponseForm(forms.ModelForm):
         required=True
     )
 
-    activity_window_start = forms.TimeField(
+    activity_duration_hours = forms.IntegerField(
         required=True,
-        label="Start time of daily activity window",
-        widget=forms.TimeInput(format='%H:%M', attrs={'type': 'time'})
-    )
-
-    activity_window_end = forms.TimeField(
-        required=True,
-        label="End time of daily activity window",
-        widget=forms.TimeInput(format='%H:%M', attrs={'type': 'time'})
+        label="Activity time frame (Hours)",
+        min_value=1,
+        max_value=24,
+        widget=forms.NumberInput(attrs={
+            'placeholder': '4',
+            'type': 'number',
+            'step': '1'
+        }),
+        help_text="Hours"
     )
 
     budget = forms.DecimalField(
@@ -62,43 +83,29 @@ class SurveyResponseForm(forms.ModelForm):
     class Meta:
         model = SurveyResponse
         fields = [
+            'trip_title',
             'stay_length',
             'stay_location',
             'preferred_cuisine',
             'activity_level',
-            'activity_window_start',
-            'activity_window_end',
+            'activity_duration_hours',
             'budget',
             'social_context',
+            'radius',
             'dislikes'
         ]
 
-def clean_stay_length(self):
-    stay_length = self.cleaned_data.get('stay_length')
-    if stay_length is None or stay_length < 1:
-        raise forms.ValidationError("Stay length must be at least 1 day.")
-    return stay_length
+    def clean_stay_length(self):
+        stay_length = self.cleaned_data.get('stay_length')
+        if stay_length is None or stay_length < 1:
+            raise forms.ValidationError("Stay length must be at least 1 day.")
+        return stay_length
 
 
 
 class FullSurveyForm(SurveyResponseForm):
-    trip_title = forms.CharField(
-        required=True,
-        label="Trip Title",
-        widget=forms.TextInput(attrs={"placeholder": "My Trip"})
-    )
-
-    radius = forms.IntegerField(
-        required=True,
-        label="Radius from stay location (miles)",
-        min_value=0,
-        widget=forms.NumberInput(attrs={"placeholder": "5"})
-    )
-
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.fields['trip_title'].required = True
-        self.fields['radius'].required = True
+    # Inherits all fields from SurveyResponseForm
+    pass
 
 
 class LoginForm(forms.Form):

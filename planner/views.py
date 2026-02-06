@@ -30,12 +30,16 @@ def survey_page(request):
                 response.username = request.user
             response.save()
             request.session['survey_data'] = {
+                "trip_title": data['trip_title'],
                 "stay_length": data['stay_length'],
                 "stay_location": data['stay_location'].name,
                 "preferred_cuisine": data['preferred_cuisine'].name,
                 "activity_level": data['activity_level'].name,
-                "activity_window_start": str(data['activity_window_start']),
-                "activity_window_end": str(data['activity_window_end'])
+                "activity_duration_hours": data['activity_duration_hours'],
+                "budget": str(data.get('budget', '')),
+                "social_context": data['social_context'].name,
+                "radius": data['radius'],
+                "dislikes": data.get('dislikes', '')
             }
             return redirect("planner:activity")
 
@@ -138,13 +142,10 @@ def survey_full_page(request):
                 model_data["stay_location"] = Neighborhood.objects.get(name=data["stay_location"])
                 model_data["preferred_cuisine"] = PreferredCuisine.objects.get(name=data["preferred_cuisine"])
                 model_data["activity_level"] = ActivityLevel.objects.get(name=data["activity_level"])
-                model_data["activity_window_start"] = dt_time.fromisoformat(data["activity_window_start"])
-                model_data["activity_window_end"] = dt_time.fromisoformat(data["activity_window_end"])
                 model_data["social_context"] = SocialContext.objects.get(name=data["social_context"])
                 model_data["user"] = request.user
+                # activity_duration_hours is already an integer, no conversion needed
                 model_data.pop("trip_location", None)
-                model_data.pop("trip_title", None)
-                model_data.pop("radius", None)
 
                 SurveyResponse.objects.create(**model_data)
 
@@ -383,6 +384,7 @@ def login_view(request):
     return render(request, 'planner/login.html', {'form': form})
 
 
+@login_required
 def summary_page(request):
 
     itineraries = Itinerary.objects.filter(username=request.user).order_by('id')
