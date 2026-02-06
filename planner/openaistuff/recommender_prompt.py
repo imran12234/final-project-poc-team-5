@@ -101,52 +101,52 @@ def get_recommendations(stay_length, location, favorite_cuisine, activity_level,
     ```
     """
 
-    # return { #UNCOMMENT THIS WHOLE RETURN STATEMENT TO MOCK AN OPEN AI API CALL
-    #     "itinerary": [
-    #         {
-    #             "neighborhood": "Uptown",
-    #             "name": "Montrose Dog Beach",
-    #             "explanation": "Given your preference of not liking crowded places, Montrose Dog Beach can provide a nice escape to relax and enjoy some time alone.",
-    #             "day": "1",
-    #             "order": "1",
-    #             "category": "activity",
-    #         },
-    #         {
-    #             "neighborhood": "Uptown",
-    #             "name": "Sun Wah BBQ",
-    #             "explanation": "Considering your preferences for Chinese cuisine and a moderate budget, Sun Wah BBQ offers a variety of Chinese dishes at a reasonable price.",
-    #             "day": "1",
-    #             "order": "2",
-    #             "category": "restaurant",
-    #             "latitude": 41.9739608,
-    #             "longitude": -87.6595962
-    #         },
-    #         {
-    #             "neighborhood": "Uptown",
-    #             "name": "Honeymoon Cafe",
-    #             "explanation": "This restaurant also offers Chinese cuisine and is budget-friendly. With its relaxed atmosphere, it can be a good fit for you.",
-    #             "day": "1",
-    #             "order": "3",
-    #             "category": "restaurant",
-    #             "latitude": 41.973345200000004,
-    #             "longitude": -87.65939639999999
-    #         },
-    #     ],
-    #     "recommendations": [
-    #         {
-    #             "neighborhood": "Uptown",
-    #             "name": "Immm Thai",
-    #             "explanation": "rec 1",
-    #             "category": "restaurant"
-    #         },
-    #         {
-    #             "neighborhood": "Uptown",
-    #             "name": "First Sip Cafe",
-    #             "explanation": "rec 2",
-    #             "category": "activity"
-    #         },
-    #     ]
-    # }
+    return { # MOCK DATA - Remove this to use real OpenAI API
+        "itinerary": [
+            {
+                "neighborhood": "Uptown",
+                "name": "Montrose Dog Beach",
+                "explanation": "Given your preference of not liking crowded places, Montrose Dog Beach can provide a nice escape to relax and enjoy some time alone.",
+                "day": 1,
+                "order": 1,
+                "category": "activity",
+            },
+            {
+                "neighborhood": "Uptown",
+                "name": "Sun Wah BBQ",
+                "explanation": "Considering your preferences for Chinese cuisine and a moderate budget, Sun Wah BBQ offers a variety of Chinese dishes at a reasonable price.",
+                "day": 1,
+                "order": 2,
+                "category": "restaurant",
+                "latitude": 41.9739608,
+                "longitude": -87.6595962
+            },
+            {
+                "neighborhood": "Uptown",
+                "name": "Honeymoon Cafe",
+                "explanation": "This restaurant also offers Chinese cuisine and is budget-friendly. With its relaxed atmosphere, it can be a good fit for you.",
+                "day": 1,
+                "order": 3,
+                "category": "restaurant",
+                "latitude": 41.973345200000004,
+                "longitude": -87.65939639999999
+            },
+        ],
+        "recommendations": [
+            {
+                "neighborhood": "Uptown",
+                "name": "Immm Thai",
+                "explanation": "A highly-rated Thai restaurant perfect for your next adventure.",
+                "category": "restaurant"
+            },
+            {
+                "neighborhood": "Uptown",
+                "name": "First Sip Cafe",
+                "explanation": "A cozy cafe to start your day with great coffee and pastries.",
+                "category": "activity"
+            },
+        ]
+    }
 
     user_input = f"""
 - Staying for {stay_length} days
