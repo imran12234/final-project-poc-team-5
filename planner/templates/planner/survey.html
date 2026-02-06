@@ -32,11 +32,10 @@
     </form>
 </div>
 
-<!-- Loading Overlay w/ Minigame -->
+<!-- Loading Overlay -->
 <div id="loading-screen" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(255,255,255,0.95); z-index: 9999; justify-content: center; align-items: center; flex-direction: column; font-size: 2.5rem;">
-    <div class="emoji-bounce" id="emoji-click-area" style="cursor: pointer;">🌆 <span id="middle-emoji">🍽️</span> ⏳</div>
+    <div class="emoji-bounce" id="emoji-click-area">🌆 <span id="middle-emoji">🍽️</span> ⏳</div>
     <div id="loading-text" style="font-size: 1.25rem; margin-top: 1rem;">Planning your perfect trip...</div>
-    <div id="score-text" style="font-size: 1.1rem; color: #555;">Score: <span id="score">0</span></div>
 </div>
 
 <style>
@@ -69,11 +68,7 @@
         const form = document.getElementById("survey-form");
         const loadingScreen = document.getElementById("loading-screen");
         const middleEmoji = document.getElementById("middle-emoji");
-        const emojiArea = document.getElementById("emoji-click-area");
-        const scoreText = document.getElementById("score");
         const loadingText = document.getElementById("loading-text");
-
-        let score = 0;
 
         form.addEventListener("submit", function (e) {
             e.preventDefault();
@@ -100,12 +95,6 @@
                 middleEmoji.textContent = emojiList[index % emojiList.length];
                 index++;
             }, 3000);
-
-            // Minigame: click to increase score
-            emojiArea.addEventListener("click", () => {
-                score++;
-                scoreText.textContent = score;
-            });
 
             setTimeout(() => {
                 loadingText.textContent = "Still working... high-quality plans take time 🧠✨";
