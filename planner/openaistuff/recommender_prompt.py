@@ -66,7 +66,20 @@ def activity_recommendation(user_preferences, location, radius_miles):
     ])
 
     try:
-        parsed = json.loads(response.choices[0].message.content)
+        content = response.choices[0].message.content.strip()
+
+        # Strip markdown code blocks if present
+        if content.startswith("```json"):
+            content = content[7:]  # Remove ```json
+        elif content.startswith("```"):
+            content = content[3:]  # Remove ```
+
+        if content.endswith("```"):
+            content = content[:-3]  # Remove trailing ```
+
+        content = content.strip()
+
+        parsed = json.loads(content)
         print(f"[DEBUG] Parsed list:\n{json.dumps(parsed, indent=4)}")
         return parsed
     except json.JSONDecodeError:
@@ -101,53 +114,7 @@ def get_recommendations(stay_length, location, favorite_cuisine, activity_level,
     ```
     """
 
-    return { # MOCK DATA - Remove this to use real OpenAI API
-        "itinerary": [
-            {
-                "neighborhood": "Uptown",
-                "name": "Montrose Dog Beach",
-                "explanation": "Given your preference of not liking crowded places, Montrose Dog Beach can provide a nice escape to relax and enjoy some time alone.",
-                "day": 1,
-                "order": 1,
-                "category": "activity",
-            },
-            {
-                "neighborhood": "Uptown",
-                "name": "Sun Wah BBQ",
-                "explanation": "Considering your preferences for Chinese cuisine and a moderate budget, Sun Wah BBQ offers a variety of Chinese dishes at a reasonable price.",
-                "day": 1,
-                "order": 2,
-                "category": "restaurant",
-                "latitude": 41.9739608,
-                "longitude": -87.6595962
-            },
-            {
-                "neighborhood": "Uptown",
-                "name": "Honeymoon Cafe",
-                "explanation": "This restaurant also offers Chinese cuisine and is budget-friendly. With its relaxed atmosphere, it can be a good fit for you.",
-                "day": 1,
-                "order": 3,
-                "category": "restaurant",
-                "latitude": 41.973345200000004,
-                "longitude": -87.65939639999999
-            },
-        ],
-        "recommendations": [
-            {
-                "neighborhood": "Uptown",
-                "name": "Immm Thai",
-                "explanation": "A highly-rated Thai restaurant perfect for your next adventure.",
-                "category": "restaurant"
-            },
-            {
-                "neighborhood": "Uptown",
-                "name": "First Sip Cafe",
-                "explanation": "A cozy cafe to start your day with great coffee and pastries.",
-                "category": "activity"
-            },
-        ]
-    }
-
+    # MOCK DATA DISABLED - Using real OpenAI API
     user_input = f"""
 - Staying for {stay_length} days
 - Staying in the neighborhood {location}

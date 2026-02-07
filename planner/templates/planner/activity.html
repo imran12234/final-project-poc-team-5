@@ -88,7 +88,7 @@
               style="all: unset; display: block; cursor: pointer;">
 
               <div class="d-flex p-2">
-                <img src="{{ act.photo_name }}"
+                <img src="{% url 'planner:photo_proxy' %}?photo_name={{ act.photo_name|urlencode }}"
                     class="rounded me-3"
                     style="width: 200px; height: 150px; object-fit: cover;"
                     alt="Activity image">

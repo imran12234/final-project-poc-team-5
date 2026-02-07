@@ -11,7 +11,9 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 from datetime import time as dt_time
 from decimal import Decimal
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
+import requests
+import os
 from .forms import FullSurveyForm
 import json
 from django.db.models import Prefetch
@@ -372,15 +374,15 @@ def fetch_and_store_recommendations(data, request):
                 for restaurant in neighborhood_details["restaurants"]:
                     for restaurant_name, restaurant_details in restaurant.items():
                         if restaurant_name == itinerary["name"]:
-                            itinerary["photo_name"] = get_image(restaurant_details["photo_name"])
+                            itinerary["photo_name"] = restaurant_details["photo_name"]
                             itinerary["latitude"] = restaurant_details["location"]["latitude"]
                             itinerary["longitude"] = restaurant_details["location"]["longitude"]
                             itinerary["address"] = restaurant_details["address"]
-                
+
                 for attraction in neighborhood_details["attractions"]:
                     for attraction_name, attraction_details in attraction.items():
                         if attraction_name == itinerary["name"]:
-                            itinerary["photo_name"] = get_image(attraction_details["photo_name"])
+                            itinerary["photo_name"] = attraction_details["photo_name"]
                             itinerary["latitude"] = attraction_details["location"]["latitude"]
                             itinerary["longitude"] = attraction_details["location"]["longitude"]
                             itinerary["address"] = attraction_details["address"]
@@ -391,7 +393,7 @@ def fetch_and_store_recommendations(data, request):
                 for restaurant in neighborhood_details["restaurants"]:
                     for restaurant_name, restaurant_details in restaurant.items():
                         if restaurant_name == recommendations["name"]:
-                            recommendations["photo_name"] = get_image(restaurant_details["photo_name"])
+                            recommendations["photo_name"] = restaurant_details["photo_name"]
                             recommendations["latitude"] = restaurant_details["location"]["latitude"]
                             recommendations["longitude"] = restaurant_details["location"]["longitude"]
                             recommendations["address"] = restaurant_details["address"]
@@ -399,12 +401,15 @@ def fetch_and_store_recommendations(data, request):
                 for attraction in neighborhood_details["attractions"]:
                     for attraction_name, attraction_details in attraction.items():
                         if attraction_name == recommendations["name"]:
-                            recommendations["photo_name"] = get_image(attraction_details["photo_name"])
+                            recommendations["photo_name"] = attraction_details["photo_name"]
                             recommendations["latitude"] = attraction_details["location"]["latitude"]
-                            recommendations["longitude"] = attraction_details["location"]["longitude"]
+                            recommendations["longitude"] = attraction_details["longitude"]
                             recommendations["address"] = attraction_details["address"]
 
-    # print(f"result recommendations: {json.dumps(result, indent=4)}")
+    print(f"[DEBUG] Photo URLs in itinerary:")
+    for item in result["itinerary"]:
+        print(f"  {item['name']}: {item.get('photo_name', 'NO PHOTO')}")
+
     request.session["itinerary"] = result["itinerary"]
     request.session["recommendations"] = result["recommendations"]
     
@@ -539,4 +544,25 @@ class CustomPasswordResetConfirmView(PasswordResetConfirmView):
         form.fields['new_password1'].widget.attrs.update({'class': 'form-control', 'placeholder': 'New password'})
         form.fields['new_password2'].widget.attrs.update({'class': 'form-control', 'placeholder': 'Confirm password'})
         return form
- 
+
+def photo_proxy(request):
+    """Proxy photo requests to Google Places API to avoid CORS and authentication issues"""
+    photo_name = request.GET.get('photo_name', '')
+
+    if not photo_name:
+        return HttpResponse(status=400)
+
+    api_key = os.getenv("PLACES_API_KEY")
+    url = f"https://places.googleapis.com/v1/{photo_name}/media?maxHeightPx=400&key={api_key}"
+
+    try:
+        response = requests.get(url, timeout=10)
+        if response.status_code == 200:
+            return HttpResponse(response.content, content_type=response.headers.get('Content-Type', 'image/jpeg'))
+        else:
+            print(f"[ERROR] Failed to fetch photo: {response.status_code} - {response.text}")
+            return HttpResponse(status=response.status_code)
+    except Exception as e:
+        print(f"[ERROR] Photo proxy exception: {str(e)}")
+        return HttpResponse(status=500)
+

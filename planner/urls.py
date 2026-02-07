@@ -16,6 +16,7 @@ urlpatterns = [
     path('logout/', views.logout_now, name='logout'),
     path('favorites/', views.favorites_page, name='favorites'),
     path('favorite_itinerary/<int:itinerary_id>/', views.favorite_itinerary, name='favorite_itinerary'),
+    path('photo-proxy/', views.photo_proxy, name='photo_proxy'),
 
     path('password/reset/', CustomPasswordResetView.as_view(), name='password_reset'),
 ]
