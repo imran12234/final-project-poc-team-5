@@ -162,8 +162,87 @@
         const middleEmoji = document.getElementById("middle-emoji");
         const loadingText = document.getElementById("loading-text");
 
+        // Block e/E/+/- in number inputs (browsers allow them for scientific notation)
+        document.querySelectorAll('input[type="number"]').forEach(input => {
+            input.addEventListener('keydown', function(e) {
+                if (['e', 'E', '+', '-'].includes(e.key)) e.preventDefault();
+            });
+        });
+
+        // Validation helpers
+        function setError(el, msg) {
+            el.classList.add("is-invalid");
+            let fb = el.parentElement.querySelector(".invalid-feedback");
+            if (!fb) {
+                fb = document.createElement("div");
+                fb.className = "invalid-feedback";
+                el.parentElement.appendChild(fb);
+            }
+            fb.textContent = msg;
+        }
+
+        function clearError(el) {
+            el.classList.remove("is-invalid");
+            const fb = el.parentElement.querySelector(".invalid-feedback");
+            if (fb) fb.textContent = "";
+        }
+
+        function validateForm() {
+            let valid = true;
+            let firstInvalid = null;
+
+            const required = [
+                { el: document.querySelector('[name="trip_title"]'),             msg: "Please enter a trip title." },
+                { el: document.querySelector('[name="stay_length"]'),             msg: "Please enter the number of days (at least 1).", min: 1 },
+                { el: document.querySelector('[name="stay_location"]'),           msg: "Please select a neighborhood." },
+                { el: document.querySelector('[name="preferred_cuisine"]'),       msg: "Please select a cuisine." },
+                { el: document.querySelector('[name="activity_level"]'),          msg: "Please select an activity level." },
+                { el: document.querySelector('[name="social_context"]'),          msg: "Please select who you're travelling with." },
+                { el: document.querySelector('[name="activity_duration_hours"]'), msg: "Please enter daily activity hours (at least 1).", min: 1 },
+                { el: document.querySelector('[name="budget"]'),                  msg: "Please enter a budget.", min: 0 },
+                { el: document.querySelector('[name="radius"]'),                  msg: "Please enter a search radius (at least 1).", min: 1 },
+            ];
+
+            required.forEach(({ el, msg, min }) => {
+                if (!el) return;
+                clearError(el);
+                const val = el.value.trim();
+                let invalid = false;
+
+                if (!val) {
+                    invalid = true;
+                } else if (min !== undefined && parseFloat(val) < min) {
+                    invalid = true;
+                }
+
+                if (invalid) {
+                    setError(el, msg);
+                    valid = false;
+                    if (!firstInvalid) firstInvalid = el;
+                }
+            });
+
+            if (firstInvalid) {
+                firstInvalid.scrollIntoView({ behavior: "smooth", block: "center" });
+                firstInvalid.focus();
+            }
+
+            // Attach live clear-on-change after first validation run
+            if (!form._liveValidationAttached) {
+                form._liveValidationAttached = true;
+                required.forEach(({ el }) => {
+                    if (!el) return;
+                    el.addEventListener(el.tagName === "SELECT" ? "change" : "input", () => clearError(el));
+                });
+            }
+
+            return valid;
+        }
+
         form.addEventListener("submit", function (e) {
             e.preventDefault();
+
+            if (!validateForm()) return;
 
             // Pull values
             const cuisine = document.querySelector('[name="{{ form.preferred_cuisine.name }}"]')?.selectedOptions[0]?.text.trim();

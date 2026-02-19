@@ -23,17 +23,18 @@
           );
         
           const coords = [];
-        
+
           itineraryActivities.forEach(activity => {
             const lat = parseFloat(activity.latitude);
             const lng = parseFloat(activity.longitude);
+            if (lat === 0 && lng === 0) return; // skip activities with no real coordinates
             coords.push([lat, lng]);
-        
+
             L.marker([lat, lng]) // markers for each location on the map
               .addTo(map)
               .bindPopup(`<strong>${activity.place}</strong><br>${activity.description}`); // gives the markers a name and description
           });
-        
+
           if (coords.length >= 2) { // line that connects the different coordinates
             L.polyline(coords, {
               color: 'blue',
@@ -41,7 +42,7 @@
               opacity: 0.7
             }).addTo(map);
           }
-        
+
           if (coords.length > 0) { // scales the map to fit the coordinates
             map.fitBounds(coords);
           }

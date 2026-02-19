@@ -19,7 +19,7 @@
                 <div class="col-md-3 col-sm-4 d-flex align-items-center justify-content-center itinerary-image-container">
                   {% with fav_itinerary.ordered_activities.0 as activity %}
                     {% if activity and activity.photo_name %}
-                      <img src="{{ activity.photo_name }}" class="img-fluid rounded" alt="Image for {{ activity.activity_name }}" style="object-fit: cover; width: 100%; height: 150px;">
+                      <img src="{% url 'planner:photo_proxy' %}?photo_name={{ activity.photo_name|urlencode }}" class="img-fluid rounded" alt="Image for {{ activity.activity_name }}" style="object-fit: cover; width: 100%; height: 150px;">
                     {% else %}
                       <img src="{% static 'images/placeholder-itinerary.png' %}" class="img-fluid rounded-start" alt="Itinerary: {{ fav_itinerary.name }}" style="object-fit: cover; width: 100%; height: 150px;">
                     {% endif %}

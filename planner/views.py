@@ -278,7 +278,12 @@ def activity_page(request):
 
     if "current_itinerary" not in request.session:
         create_new_itinerary(request, survey_data["stay_length"]) # itinerary created, also don't need to use current_day, we'll change to pagination
-        fetch_and_store_recommendations(survey_data, request) # still the same except I just removed activity_index
+        try:
+            fetch_and_store_recommendations(survey_data, request)
+        except ValueError as e:
+            print(f"[ERROR] Survey data validation failed: {e}")
+            messages.error(request, f"Could not generate itinerary: {e}")
+            return redirect("planner:survey")
         current_itinerary = Itinerary.objects.get(id=request.session["current_itinerary"]) # get the itinerary with the id passed from other function
         make_activity_cards((request.session["itinerary"]), current_itinerary)
     else:
@@ -353,6 +358,59 @@ def create_new_itinerary(request, stay_length):
     request.session["current_itinerary"] = itinerary.id # store the current itinerary in the user's session so we can keep "building it"
 
 
+def get_transit_time(orig_lat, orig_lng, dest_lat, dest_lng, api_key):
+    """Return estimated walk and drive times using Google Routes API, with Haversine fallback."""
+    import math
+
+    def haversine_miles(lat1, lng1, lat2, lng2):
+        R = 3958.8
+        phi1, phi2 = math.radians(lat1), math.radians(lat2)
+        dphi = math.radians(lat2 - lat1)
+        dlambda = math.radians(lng2 - lng1)
+        a = math.sin(dphi / 2) ** 2 + math.cos(phi1) * math.cos(phi2) * math.sin(dlambda / 2) ** 2
+        return 2 * R * math.asin(math.sqrt(a))
+
+    def query_route(mode):
+        url = "https://routes.googleapis.com/directions/v2:computeRoutes"
+        headers = {
+            "Content-Type": "application/json",
+            "X-Goog-Api-Key": api_key,
+            "X-Goog-FieldMask": "routes.duration",
+        }
+        body = {
+            "origin": {"location": {"latLng": {"latitude": orig_lat, "longitude": orig_lng}}},
+            "destination": {"location": {"latLng": {"latitude": dest_lat, "longitude": dest_lng}}},
+            "travelMode": mode,
+        }
+        resp = requests.post(url, json=body, headers=headers, timeout=5)
+        if resp.status_code == 200:
+            routes = resp.json().get("routes", [])
+            if routes:
+                seconds = int(routes[0].get("duration", "0s").rstrip("s"))
+                return max(1, round(seconds / 60))
+        return None
+
+    walk_min = drive_min = None
+    try:
+        walk_min = query_route("WALK")
+    except Exception as e:
+        print(f"[ERROR] Routes API (WALK) failed: {e}")
+    try:
+        drive_min = query_route("DRIVE")
+    except Exception as e:
+        print(f"[ERROR] Routes API (DRIVE) failed: {e}")
+
+    # Haversine fallback for any missing mode
+    if walk_min is None or drive_min is None:
+        miles = haversine_miles(orig_lat, orig_lng, dest_lat, dest_lng)
+        if walk_min is None:
+            walk_min = max(5, round((miles / 2.5 * 60) / 5) * 5)
+        if drive_min is None:
+            drive_min = max(1, round((miles / 20 * 60) / 5) * 5)  # ~20 mph city driving
+
+    return {"walk": walk_min, "drive": drive_min}
+
+
 def lookup_place_details(name, api_key):
     """Look up a Chicago place by name via Google Places API and return photo_name, lat, lng, address."""
     url = "https://places.googleapis.com/v1/places:searchText"
@@ -361,8 +419,19 @@ def lookup_place_details(name, api_key):
         "X-Goog-Api-Key": api_key,
         "X-Goog-FieldMask": "places.formattedAddress,places.location,places.photos"
     }
+    # Bias results toward Chicago — prefers local results but won't return
+    # empty if no exact match, avoiding (0,0) fallback on valid Chicago places
+    chicago_bias = {
+        "circle": {
+            "center": {"latitude": 41.8781, "longitude": -87.6298},
+            "radius": 30000.0
+        }
+    }
     try:
-        response = requests.post(url, headers=headers, json={"textQuery": f"{name} Chicago"}, timeout=10)
+        response = requests.post(url, headers=headers, json={
+            "textQuery": f"{name} Chicago",
+            "locationBias": chicago_bias
+        }, timeout=10)
         if response.status_code == 200:
             data = response.json()
             if data.get("places"):
@@ -379,14 +448,52 @@ def lookup_place_details(name, api_key):
 
 
 def fetch_and_store_recommendations(data, request):
+    try:
+        stay_length = int(data["stay_length"])
+        if stay_length < 1:
+            raise ValueError(f"stay_length must be >= 1, got {stay_length}")
+    except (TypeError, ValueError, KeyError) as e:
+        raise ValueError(f"Invalid stay_length: {e}")
+
+    location = str(data.get("stay_location", "")).strip()
+    if not location:
+        raise ValueError("stay_location is missing or empty")
+
+    favorite_cuisine = str(data.get("preferred_cuisine", "")).strip()
+    if not favorite_cuisine:
+        raise ValueError("preferred_cuisine is missing or empty")
+
+    activity_level = str(data.get("activity_level", "")).strip()
+    if not activity_level:
+        raise ValueError("activity_level is missing or empty")
+
+    try:
+        budget = float(data.get("budget") or 0)
+    except (TypeError, ValueError) as e:
+        raise ValueError(f"Invalid budget: {e}")
+
+    social_context = str(data.get("social_context", "")).strip()
+    if not social_context:
+        raise ValueError("social_context is missing or empty")
+
+    dislikes = str(data.get("dislikes", "")).strip()
+
+    try:
+        radius = int(data.get("radius") or 5)
+        if radius < 1:
+            radius = 1
+    except (TypeError, ValueError):
+        radius = 5
+
     result = get_recommendations(
-        data["stay_length"],
-        data["stay_location"],
-        data["preferred_cuisine"],
-        data["activity_level"],
-        data["budget"],
-        data["social_context"],
-        data["dislikes"]
+        stay_length,
+        location,
+        favorite_cuisine,
+        activity_level,
+        budget,
+        social_context,
+        dislikes,
+        radius
     )
 
     api_key = os.getenv("PLACES_API_KEY")
@@ -429,6 +536,7 @@ def summary_page(request):
     itineraries = Itinerary.objects.filter(username=request.user).order_by('id')
     itinerary = None
     activities = []
+    activities_for_coords = []
 
     itineraryID = request.GET.get('itinerary_id') or request.session.get("current_itinerary")
 
@@ -447,10 +555,43 @@ def summary_page(request):
             itinerary = None
 
     if itinerary:
-        activities = ItineraryActivity.objects.filter(itinerary=itinerary).order_by('day', 'order')
+        raw_activities = list(ItineraryActivity.objects.filter(itinerary=itinerary).order_by('day', 'order'))
+        places_api_key = os.getenv("PLACES_API_KEY")
+        prev_by_day = {}
+        activities = []
         activities_for_coords = []
-        for i in range(len(activities)):
-            activity = activities[i]
+
+        for i, activity in enumerate(raw_activities):
+            day = activity.day
+            if day not in prev_by_day:
+                transit_time = "Start of day"
+            elif places_api_key and not (activity.latitude == 0 and activity.longitude == 0):
+                prev = prev_by_day[day]
+                transit_time = get_transit_time(
+                    prev.latitude, prev.longitude,
+                    activity.latitude, activity.longitude,
+                    places_api_key
+                )
+            else:
+                transit_time = "N/A"
+
+            prev_by_day[day] = activity
+
+            activities.append({
+                "id": activity.id,
+                "activity_name": activity.activity_name,
+                "day": activity.day,
+                "order": activity.order,
+                "category": activity.category,
+                "photo_name": activity.photo_name,
+                "address": activity.address,
+                "activity_neighborhood": activity.activity_neighborhood,
+                "activity_description": activity.activity_description,
+                "latitude": activity.latitude,
+                "longitude": activity.longitude,
+                "transit_time": transit_time,
+            })
+
             activities_for_coords.append({
                 "id": activity.id,
                 "index": i,
@@ -462,8 +603,8 @@ def summary_page(request):
                 "category": activity.category,
                 "photo_name": activity.photo_name,
                 "address": activity.address,
-                "day": activity.day
-        })
+                "day": activity.day,
+            })
         # for activity in activities:
         #     start = datetime.combine(datetime.today(), activity.start_time)
         #     end = datetime.combine(datetime.today(), activity.end_time)

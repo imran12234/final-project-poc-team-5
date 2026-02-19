@@ -6,12 +6,13 @@ api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 
 
-def build_prompt(stay_length, location, favorite_cuisine, activity_level, budget, social_context, dislikes):
+def build_prompt(stay_length, location, favorite_cuisine, activity_level, budget, social_context, dislikes, radius):
     return f"""You are an expert Chicago travel planner. Build a personalized, day-by-day itinerary for a visitor based strictly on their survey preferences below.
 
 USER SURVEY:
 - Trip length: {stay_length} days
 - Staying in: {location}, Chicago  ← BASE LOCATION. Prioritize places here and in immediately adjacent neighborhoods.
+- Search radius: {radius} miles from {location}. All itinerary items MUST be within {radius} miles of {location}.
 - Favorite cuisine: {favorite_cuisine}
 - Activity level: {activity_level}  (Low = relaxed/seated, Moderate = some walking, High = physically active)
 - Budget: ${budget}
@@ -20,10 +21,10 @@ USER SURVEY:
 
 RULES:
 1. Only recommend places that genuinely exist in Chicago. Do not make up places.
-2. The user is staying in {location}. Day 1 should be centered in or very close to {location}. Later days may venture to nearby neighborhoods, but always keep the base location in mind.
+2. The user is staying in {location}. Every recommended place MUST be within {radius} miles of {location}. Do not suggest places outside this radius.
 3. Each day MUST have exactly 4 items: at least 2 activities/attractions AND at least 1 restaurant. Use the 4th slot for whichever fits best.
 4. Match recommendations to the user's cuisine preference, activity level, budget, and social context.
-5. Add 8-12 alternative places (not used in the itinerary) into recommendations for the user to swap in, also prioritizing {location} and nearby areas.
+5. Add 8-12 alternative places (not used in the itinerary) into recommendations for the user to swap in, also within {radius} miles of {location}.
 6. Never repeat a place between itinerary and recommendations.
 7. Output MUST be valid JSON in exactly this format — no extra text:
 
@@ -49,8 +50,8 @@ RULES:
 }}"""
 
 
-def activity_recommendation(stay_length, location, favorite_cuisine, activity_level, budget, social_context, dislikes):
-    prompt = build_prompt(stay_length, location, favorite_cuisine, activity_level, budget, social_context, dislikes)
+def activity_recommendation(stay_length, location, favorite_cuisine, activity_level, budget, social_context, dislikes, radius):
+    prompt = build_prompt(stay_length, location, favorite_cuisine, activity_level, budget, social_context, dislikes, radius)
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         max_tokens= 2000,
@@ -81,7 +82,7 @@ def activity_recommendation(stay_length, location, favorite_cuisine, activity_le
         return None
 
 
-def get_recommendations(stay_length, location, favorite_cuisine, activity_level, budget, social_context, dislikes):
+def get_recommendations(stay_length, location, favorite_cuisine, activity_level, budget, social_context, dislikes, radius=5):
     """
     Returns:
     {
@@ -89,7 +90,7 @@ def get_recommendations(stay_length, location, favorite_cuisine, activity_level,
         "recommendations": [ { neighborhood, name, explanation, category }, ... ]
     }
     """
-    result = activity_recommendation(stay_length, location, favorite_cuisine, activity_level, budget, social_context, dislikes)
+    result = activity_recommendation(stay_length, location, favorite_cuisine, activity_level, budget, social_context, dislikes, radius)
 
     if result is None:
         raise ValueError("GPT response could not be parsed as JSON.")
